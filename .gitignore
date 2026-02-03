@@ -1,0 +1,14 @@
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+.bundle/
+*.gem
+*.rbc
+/.bundle/
+/.yardoc
+/_yardoc/
+/doc/
+/rdoc/ 
+.ruby-version
