@@ -1,0 +1,710 @@
+---
+layout: default
+title: "Collectif Végé | Veggie Collective — Gatineau"
+description: "Collectif Végé est un organisme sans but lucratif à Gatineau où nous plantons, cultivons et récoltons ensemble. Inscrivez-vous pour la saison 2026!"
+---
+
+<!-- ===================== NAVIGATION ===================== -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-brand">
+      <span class="fr">Collectif Végé</span>
+      <span class="en">Veggie Collective</span>
+    </a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#a-propos"><span class="fr">À propos</span><span class="en">About</span></a></li>
+      <li><a href="#fonctionnement"><span class="fr">Fonctionnement</span><span class="en">How it works</span></a></li>
+      <li><a href="#horaire"><span class="fr">Horaire</span><span class="en">Schedule</span></a></li>
+      <li><a href="#tarifs"><span class="fr">Tarifs</span><span class="en">Pricing</span></a></li>
+      <li><a href="#galerie"><span class="fr">La récolte</span><span class="en">The harvest</span></a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#inscription" class="nav-cta"><span class="fr">S'inscrire</span><span class="en">Register</span></a></li>
+    </ul>
+    <div class="nav-controls">
+      <button class="lang-toggle" onclick="toggleLang()" aria-label="Changer la langue / Change language">
+        <span class="lang-fr-label">FR</span>
+        <span class="lang-divider">|</span>
+        <span class="lang-en-label">EN</span>
+      </button>
+      <button class="menu-toggle" onclick="toggleMenu()" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- ===================== HERO ===================== -->
+<section id="hero">
+  <div class="hero-inner">
+    <div class="hero-badge">
+      <span class="fr">Saison 2026 — Gatineau, QC</span>
+      <span class="en">2026 Season — Gatineau, QC</span>
+    </div>
+    <h1 class="hero-title">
+      <span class="fr">Collectif <em>Végé</em></span>
+      <span class="en">Veggie <em>Collective</em></span>
+    </h1>
+    <p class="hero-tagline">
+      <span class="fr">Nous plantons et récoltons ensemble à la Ferme Moore. Rejoignez notre communauté et repartez chaque semaine avec des légumes frais cueillis de vos propres mains.</span>
+      <span class="en">We plant and harvest together at Moore Farm. Join our community and take home fresh vegetables picked with your own hands every week.</span>
+    </p>
+    <div class="hero-ctas">
+      <a href="#inscription" class="btn btn-primary btn-lg">
+        <span class="fr">S'inscrire — Saison 2026</span>
+        <span class="en">Register — 2026 Season</span>
+      </a>
+      <a href="#fonctionnement" class="btn btn-outline btn-lg">
+        <span class="fr">Comment ça fonctionne</span>
+        <span class="en">How it works</span>
+      </a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <div class="stat-number">3h</div>
+        <div class="stat-label">
+          <span class="fr">par semaine<br>à la ferme</span>
+          <span class="en">per week<br>at the farm</span>
+        </div>
+      </div>
+      <div class="stat">
+        <div class="stat-number">20+</div>
+        <div class="stat-label">
+          <span class="fr">types de légumes<br>et fruits</span>
+          <span class="en">types of vegetables<br>and fruits</span>
+        </div>
+      </div>
+      <div class="stat">
+        <div class="stat-number">2×</div>
+        <div class="stat-label">
+          <span class="fr">la valeur de votre<br>cotisation en légumes</span>
+          <span class="en">the value of your<br>fee in vegetables</span>
+        </div>
+      </div>
+      <div class="stat">
+        <div class="stat-number">80</div>
+        <div class="stat-label">
+          <span class="fr">parts disponibles<br>cette saison</span>
+          <span class="en">shares available<br>this season</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ABOUT ===================== -->
+<section id="a-propos">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-image">
+        <!-- Copy one of your farm photos to assets/images/gallery/ and update this src -->
+        <img src="{{ '/assets/images/gallery/IMG_2617.jpg' | relative_url }}" alt="Récolte au Collectif Végé — Moore Farm, Gatineau">
+      </div>
+      <div class="about-text">
+        <span class="section-label">
+          <span class="fr">À propos</span><span class="en">About</span>
+        </span>
+        <h2>
+          <span class="fr">Un jardin collectif pour toute la communauté</span>
+          <span class="en">A collective garden for the whole community</span>
+        </h2>
+        <p class="lead">
+          <span class="fr">Le Collectif Végé est un organisme sans but lucratif situé à la Ferme Moore, à Gatineau (secteur Val-Tétreau / Manoir des Trembles). Ensemble, nous plantons, cultivons et récoltons des légumes frais tout en bâtissant des liens communautaires et en partageant nos connaissances agricoles.</span>
+          <span class="en">The Veggie Collective is a non-profit located at Moore Farm in Gatineau (Val-Tétreau / Manoir des Trembles). Together, we plant, grow and harvest fresh vegetables while building community bonds and sharing farming knowledge.</span>
+        </p>
+        <p>
+          <span class="fr">Aucune expérience agricole requise. Nos coordinateurs bénévoles guident les tâches chaque semaine — plantations, arrosage, désherbage et récolte. Vous repartirez avec de beaux légumes frais <strong>et</strong> de nouvelles compétences pour votre propre jardin.</span>
+          <span class="en">No farming experience needed. Our volunteer coordinators guide the tasks each week — planting, watering, weeding and harvesting. You'll go home with beautiful fresh vegetables <strong>and</strong> new skills for your own garden.</span>
+        </p>
+        <p>
+          <strong><span class="fr">Lieu :</span><span class="en">Location:</span></strong>
+          <span class="fr"> Ferme Moore, Gatineau (Val-Tétreau / Manoir des Trembles)</span>
+          <span class="en"> Moore Farm, Gatineau (Val-Tétreau / Manoir des Trembles)</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== HOW IT WORKS ===================== -->
+<section id="fonctionnement">
+  <div class="container">
+    <div class="steps-header">
+      <span class="section-label">
+        <span class="fr">Fonctionnement</span><span class="en">How it works</span>
+      </span>
+      <h2>
+        <span class="fr">Simple comme bonjour</span>
+        <span class="en">Simple as can be</span>
+      </h2>
+      <p>
+        <span class="fr">Trois étapes pour participer à la saison et repartir avec vos légumes chaque semaine.</span>
+        <span class="en">Three steps to join the season and take home your vegetables every week.</span>
+      </p>
+    </div>
+    <div class="steps-grid">
+      <div class="step">
+        <div class="step-number">1</div>
+        <h3>
+          <span class="fr">Choisissez votre part</span>
+          <span class="en">Choose your share</span>
+        </h3>
+        <p>
+          <span class="fr">Inscrivez-vous ci-dessous et sélectionnez votre quart hebdomadaire préféré (lundi à jeudi en soirée, ou samedi matin). Payez ce que vous pouvez dans la fourchette suggérée.</span>
+          <span class="en">Register below and select your preferred weekly shift (Monday to Thursday evenings, or Saturday morning). Pay what you can within the suggested range.</span>
+        </p>
+      </div>
+      <div class="step">
+        <div class="step-number">2</div>
+        <h3>
+          <span class="fr">Venez à la ferme</span>
+          <span class="en">Come to the farm</span>
+        </h3>
+        <p>
+          <span class="fr">Présentez-vous à votre quart de 3 heures à la Ferme Moore. Sous la direction d'un coordinateur bénévole, vous planterez, arrosiez, désherbez et récolterez avec vos coéquipiers (15–20 personnes par quart).</span>
+          <span class="en">Show up for your 3-hour shift at Moore Farm. Under a volunteer coordinator's guidance, you'll plant, water, weed and harvest alongside your teammates (15–20 people per shift).</span>
+        </p>
+      </div>
+      <div class="step">
+        <div class="step-number">3</div>
+        <h3>
+          <span class="fr">Repartez avec la récolte</span>
+          <span class="en">Take home the harvest</span>
+        </h3>
+        <p>
+          <span class="fr">À la fin du quart, la récolte du jour est partagée entre les personnes présentes. En pleine saison, attendez-vous à deux grands sacs d'épicerie débordant de légumes frais!</span>
+          <span class="en">At the end of the shift, the day's harvest is shared among those present. At peak season, expect up to two full grocery bags of fresh vegetables!</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SCHEDULE ===================== -->
+<section id="horaire">
+  <div class="container">
+    <div class="schedule-intro">
+      <span class="section-label">
+        <span class="fr">Horaire des quarts</span><span class="en">Shift schedule</span>
+      </span>
+      <h2>
+        <span class="fr">5 quarts disponibles par semaine</span>
+        <span class="en">5 shifts available per week</span>
+      </h2>
+      <p>
+        <span class="fr">Choisissez le jour qui vous convient le mieux. Chaque quart dure 3 heures et accueille 15 à 20 personnes. Si vous avez un conflit un semaine, vous pouvez assister à un autre quart cette semaine-là.</span>
+        <span class="en">Choose the day that works best for you. Each shift is 3 hours long and welcomes 15 to 20 participants. If you have a scheduling conflict one week, you can attend a different shift that week.</span>
+      </p>
+    </div>
+    <div class="schedule-grid">
+      <div class="day-card">
+        <div class="day-name"><span class="fr">Lundi</span><span class="en">Monday</span></div>
+        <span class="day-label"><span class="fr">En semaine</span><span class="en">Weekday</span></span>
+        <div class="day-time">17h00 – 20h00</div>
+      </div>
+      <div class="day-card">
+        <div class="day-name"><span class="fr">Mardi</span><span class="en">Tuesday</span></div>
+        <span class="day-label"><span class="fr">En semaine</span><span class="en">Weekday</span></span>
+        <div class="day-time">17h00 – 20h00</div>
+      </div>
+      <div class="day-card">
+        <div class="day-name"><span class="fr">Mercredi</span><span class="en">Wednesday</span></div>
+        <span class="day-label"><span class="fr">En semaine</span><span class="en">Weekday</span></span>
+        <div class="day-time">17h00 – 20h00</div>
+      </div>
+      <div class="day-card">
+        <div class="day-name"><span class="fr">Jeudi</span><span class="en">Thursday</span></div>
+        <span class="day-label"><span class="fr">En semaine</span><span class="en">Weekday</span></span>
+        <div class="day-time">17h00 – 20h00</div>
+      </div>
+      <div class="day-card highlight">
+        <div class="day-name"><span class="fr">Samedi</span><span class="en">Saturday</span></div>
+        <span class="day-label"><span class="fr">Fin de semaine</span><span class="en">Weekend</span></span>
+        <div class="day-time">9h30 – 12h30</div>
+      </div>
+    </div>
+    <div class="schedule-note">
+      <span class="fr">💡 <strong>Vous pouvez manquer jusqu'à 2 quarts pendant la saison</strong> sans impact sur le groupe. Des vacances d'été sans culpabilité! Au-delà de 2 absences, nous vous demandons de communiquer avec votre coordinateur.</span>
+      <span class="en">💡 <strong>You can skip up to 2 shifts during the season</strong> without impacting the group. Guilt-free summer vacation! Beyond 2 absences, we ask you to check in with your coordinator.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PRICING ===================== -->
+<section id="tarifs">
+  <div class="container">
+    <div class="pricing-header">
+      <span class="section-label">
+        <span class="fr">Parts et tarifs</span><span class="en">Shares & pricing</span>
+      </span>
+      <h2>
+        <span class="fr">Payez ce que vous pouvez</span>
+        <span class="en">Pay what you can</span>
+      </h2>
+      <p class="pricing-intro">
+        <span class="fr">La valeur des légumes reçus est plus du double des frais d'inscription. Cette année, grâce au soutien du conseiller de la ville de Gatineau, des parts subventionnées sont disponibles pour les membres de la communauté qui en ont besoin. Si vous pouvez contribuer davantage, vous aidez à rendre le programme accessible à tous.</span>
+        <span class="en">The value of vegetables received is well over double the registration fee. This year, thanks to the Ville de Gatineau Councillor's support, subsidized shares are available for community members who need them. If you can contribute more, you help make the program accessible to everyone.</span>
+      </p>
+    </div>
+    <div class="pricing-grid">
+      <div class="price-card featured">
+        <span class="price-card-label"><span class="fr">Part entière</span><span class="en">Full share</span></span>
+        <h3><span class="fr">Part entière</span><span class="en">Full share</span></h3>
+        <div class="price-amount">300$ – 400$</div>
+        <div class="price-range"><span class="fr">fourchette suggérée</span><span class="en">suggested range</span></div>
+        <p class="price-desc">
+          <span class="fr">Un quart de 3h <strong>chaque semaine</strong>. Repartez avec votre part de la récolte du jour chaque semaine.</span>
+          <span class="en">One 3-hour shift <strong>every week</strong>. Take home your share of the day's harvest every week.</span>
+        </p>
+        <p class="price-detail">
+          <span class="fr">Payez ce que vous pouvez dans la fourchette.</span>
+          <span class="en">Pay what you can within the range.</span>
+        </p>
+      </div>
+      <div class="price-card">
+        <span class="price-card-label"><span class="fr">Demi-part</span><span class="en">Half share</span></span>
+        <h3><span class="fr">Demi-part</span><span class="en">Half share</span></h3>
+        <div class="price-amount">150$ – 200$</div>
+        <div class="price-range"><span class="fr">fourchette suggérée</span><span class="en">suggested range</span></div>
+        <p class="price-desc">
+          <span class="fr">Un quart de 3h <strong>toutes les deux semaines</strong>. Idéal si votre emploi du temps est variable.</span>
+          <span class="en">One 3-hour shift <strong>every two weeks</strong>. Ideal if your schedule is variable.</span>
+        </p>
+        <p class="price-detail">
+          <span class="fr">Payez ce que vous pouvez dans la fourchette.</span>
+          <span class="en">Pay what you can within the range.</span>
+        </p>
+      </div>
+      <div class="price-card">
+        <span class="price-card-label"><span class="fr">Part entière subventionnée</span><span class="en">Subsidized full share</span></span>
+        <h3><span class="fr">Part entière subventionnée</span><span class="en">Subsidized full share</span></h3>
+        <div class="price-amount">150$</div>
+        <div class="price-range"><span class="fr">prix fixe — places limitées</span><span class="en">fixed price — limited spots</span></div>
+        <p class="price-desc">
+          <span class="fr">Un quart de 3h <strong>chaque semaine</strong>. Mêmes avantages que la part entière, à tarif réduit.</span>
+          <span class="en">One 3-hour shift <strong>every week</strong>. Same benefits as full share, at a reduced rate.</span>
+        </p>
+        <p class="price-detail">
+          <span class="fr">Soutenu par la Ville de Gatineau.</span>
+          <span class="en">Supported by the Ville de Gatineau.</span>
+        </p>
+      </div>
+      <div class="price-card">
+        <span class="price-card-label"><span class="fr">Demi-part subventionnée</span><span class="en">Subsidized half share</span></span>
+        <h3><span class="fr">Demi-part subventionnée</span><span class="en">Subsidized half share</span></h3>
+        <div class="price-amount">75$</div>
+        <div class="price-range"><span class="fr">prix fixe — places limitées</span><span class="en">fixed price — limited spots</span></div>
+        <p class="price-desc">
+          <span class="fr">Un quart de 3h <strong>toutes les deux semaines</strong>. Tarif réduit pour les membres qui en ont besoin.</span>
+          <span class="en">One 3-hour shift <strong>every two weeks</strong>. Reduced rate for members who need it.</span>
+        </p>
+        <p class="price-detail">
+          <span class="fr">Soutenu par la Ville de Gatineau.</span>
+          <span class="en">Supported by the Ville de Gatineau.</span>
+        </p>
+      </div>
+    </div>
+    <div class="subsidized-note">
+      <span class="fr">🌿 <strong>À propos des frais :</strong> Les frais d'inscription couvrent les semences, les plants, les outils, la location d'équipement de labourage, les engrais, la location du terrain, l'assurance et le matériel d'irrigation. <strong>Aucun remboursement</strong> — votre place peut toutefois être transférée à un ami ou un membre de la famille.</span>
+      <span class="en">🌿 <strong>About fees:</strong> Registration fees cover seeds, seedlings, tools, rented tilling equipment, fertilizer, land rental, insurance, and irrigation equipment. <strong>No refunds</strong> — your spot can be transferred to a friend or family member.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== IMPORTANT DATES ===================== -->
+<section id="dates">
+  <div class="container">
+    <span class="section-label">
+      <span class="fr">Calendrier</span><span class="en">Calendar</span>
+    </span>
+    <h2>
+      <span class="fr">Dates importantes — Saison 2026</span>
+      <span class="en">Important dates — 2026 season</span>
+    </h2>
+    <div class="dates-grid">
+      <div class="date-card">
+        <div class="date-icon">🌱</div>
+        <span class="date-label">
+          <span class="fr">Début de saison</span><span class="en">Season start</span>
+        </span>
+        <div class="date-value">
+          <span class="fr">Première semaine de mai 2026</span>
+          <span class="en">First week of May 2026</span>
+        </div>
+        <p class="date-note">
+          <span class="fr">Préparation des champs et plantation. Pas encore de récolte.</span>
+          <span class="en">Field preparation and planting. No harvesting quite yet.</span>
+        </p>
+      </div>
+      <div class="date-card">
+        <div class="date-icon">🥕</div>
+        <span class="date-label">
+          <span class="fr">Fin de saison</span><span class="en">End of season</span>
+        </span>
+        <div class="date-value">
+          <span class="fr">17 octobre 2026</span>
+          <span class="en">October 17, 2026</span>
+        </div>
+        <p class="date-note">
+          <span class="fr">Dernier quart régulier de la saison.</span>
+          <span class="en">Last regular shift of the season.</span>
+        </p>
+      </div>
+      <div class="date-card mandatory">
+        <div class="date-icon">🧹</div>
+        <span class="date-label">
+          <span class="fr">Nettoyage de fin de saison — OBLIGATOIRE</span>
+          <span class="en">End-of-season cleanup — MANDATORY</span>
+        </span>
+        <div class="date-value">
+          <span class="fr">Samedi 24 octobre 2026</span>
+          <span class="en">Saturday, October 24, 2026</span>
+        </div>
+        <p class="date-note">
+          <span class="fr">Journée de nettoyage obligatoire pour toutes les personnes participantes.</span>
+          <span class="en">Mandatory cleanup day for all participants.</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== GALLERY ===================== -->
+<section id="galerie">
+  <div class="container">
+    <div class="gallery-header">
+      <span class="section-label">
+        <span class="fr">La récolte en images</span><span class="en">The harvest in pictures</span>
+      </span>
+      <h2>
+        <span class="fr">À quoi s'attendre?</span>
+        <span class="en">What can you expect?</span>
+      </h2>
+      <p>
+        <span class="fr">Ces photos ont été prises par un membre tout au long de la saison 2025 — chaque photo représente une vraie part de récolte hebdomadaire, du printemps jusqu'à l'automne. La récolte est plus légère en début de saison et s'intensifie au fur et à mesure que les cultures mûrissent. <strong>Le succès d'une variété n'est jamais garanti</strong>, car les conditions climatiques et les ravageurs peuvent affecter la récolte.</span>
+        <span class="en">These photos were taken by a member throughout the 2025 season — each photo shows a real weekly harvest share, from spring through fall. The harvest starts lighter and grows more abundant as crops mature. <strong>Crop yields are never guaranteed</strong>, as weather conditions and pest pressure can affect output.</span>
+      </p>
+    </div>
+    <!-- To display these photos: copy the files from "weekly-share-photo/" into "assets/images/gallery/" -->
+    <div class="gallery-grid">
+      <div class="gallery-item"><img src="{{ '/assets/images/gallery/IMG_2546.jpg' | relative_url }}" alt="Part de récolte — Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="{{ '/assets/images/gallery/IMG_2549.jpg' | relative_url }}" alt="Part de récolte — Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="{{ '/assets/images/gallery/IMG_2552.jpg' | relative_url }}" alt="Part de récolte — Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="{{ '/assets/images/gallery/IMG_2556.jpg' | relative_url }}" alt="Part de récolte — Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="{{ '/assets/images/gallery/IMG_2560.jpg' | relative_url }}" alt="Part de récolte — Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="{{ '/assets/images/gallery/IMG_2567.jpg' | relative_url }}" alt="Part de récolte — Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="{{ '/assets/images/gallery/IMG_2588.jpg' | relative_url }}" alt="Part de récolte — Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="{{ '/assets/images/gallery/IMG_2595.jpg' | relative_url }}" alt="Part de récolte — Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="{{ '/assets/images/gallery/IMG_2599.jpg' | relative_url }}" alt="Part de récolte — Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="{{ '/assets/images/gallery/IMG_2604.jpg' | relative_url }}" alt="Part de récolte — Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="{{ '/assets/images/gallery/IMG_2609.jpg' | relative_url }}" alt="Part de récolte — Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="{{ '/assets/images/gallery/IMG_2613.jpg' | relative_url }}" alt="Part de récolte — Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="{{ '/assets/images/gallery/IMG_2614.jpg' | relative_url }}" alt="Part de récolte — Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="{{ '/assets/images/gallery/IMG_2615.jpg' | relative_url }}" alt="Part de récolte — Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="{{ '/assets/images/gallery/IMG_2617.jpg' | relative_url }}" alt="Part de récolte — Collectif Végé 2025" loading="lazy"></div>
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox overlay -->
+<div id="lightbox" class="lightbox" role="dialog" aria-modal="true">
+  <button class="lightbox-close" onclick="closeLightbox()" aria-label="Fermer / Close">×</button>
+  <button class="lightbox-prev" onclick="lightboxPrev()" aria-label="Précédente / Previous">&#8249;</button>
+  <img id="lightbox-img" src="" alt="">
+  <button class="lightbox-next" onclick="lightboxNext()" aria-label="Suivante / Next">&#8250;</button>
+</div>
+
+<!-- ===================== FAQ ===================== -->
+<section id="faq">
+  <div class="container">
+    <div class="faq-header">
+      <span class="section-label">FAQ</span>
+      <h2>
+        <span class="fr">Questions fréquentes</span>
+        <span class="en">Frequently asked questions</span>
+      </h2>
+      <p>
+        <span class="fr">Tout ce que vous devez savoir avant de vous inscrire.</span>
+        <span class="en">Everything you need to know before signing up.</span>
+      </p>
+    </div>
+    <div class="faq-list">
+
+      <div class="faq-item">
+        <button class="faq-question">
+          <span>
+            <span class="fr">Dois-je venir à la ferme chaque semaine?</span>
+            <span class="en">Do I have to come to the farm every week?</span>
+          </span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            <span class="fr">Non! Vous pouvez manquer jusqu'à 2 quarts pendant la saison sans souci. Bien que cette règle ne soit pas appliquée strictement, des absences répétées peuvent affecter la productivité du groupe. Si vous avez un conflit, essayez de venir un autre jour de la semaine. <strong>Vous ne recevez des légumes que les semaines où vous participez.</strong></span>
+            <span class="en">No! You can skip up to 2 shifts during the season without concern. While this rule isn't strictly enforced, repeated absences can affect the group's productivity. If you have a conflict, try to come on another day that week. <strong>You only receive vegetables on weeks when you participate.</strong></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          <span>
+            <span class="fr">Ai-je besoin d'une expérience préalable en jardinage?</span>
+            <span class="en">Do I need prior gardening experience?</span>
+          </span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            <span class="fr">Aucune expérience requise! Tous les niveaux sont les bienvenus. Nos coordinateurs bénévoles guident les tâches chaque semaine : plantation, arrosage, désherbage et récolte. Vous repartirez avec de nouvelles compétences pour votre propre jardin!</span>
+            <span class="en">No experience needed! All skill levels are welcome. Our volunteer coordinators guide the tasks each week: planting, watering, weeding and harvesting. You'll take home great skills for your own garden!</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          <span>
+            <span class="fr">Combien de légumes vais-je recevoir?</span>
+            <span class="en">How many vegetables will I receive?</span>
+          </span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            <span class="fr">La valeur des légumes reçus dépasse largement le double du coût d'inscription. La récolte est plus légère au printemps (principalement des légumes verts), puis s'intensifie — vous pouvez vous attendre à <strong>deux grands sacs d'épicerie remplis de légumes et fruits frais</strong> en pleine saison. Consultez la galerie ci-dessus pour voir de vraies photos de parts de la saison 2025. <strong>Le succès d'une variété n'est jamais garanti</strong>, car les conditions climatiques et les ravageurs peuvent affecter la récolte.</span>
+            <span class="en">The value of vegetables you receive is well over double the registration cost. The harvest is lighter in spring (mostly greens), then grows — you can expect <strong>up to two full grocery bags of fresh vegetables and fruit</strong> at peak season. See the gallery above for real photos of shares from the 2025 season. <strong>Crop yields are never guaranteed</strong>, as weather conditions and pest pressure can affect output.</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          <span>
+            <span class="fr">Que fait-on en cas de mauvaise météo?</span>
+            <span class="en">What happens in bad weather?</span>
+          </span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            <span class="fr">En cas de pluie ou de chaleur, le quart a lieu comme prévu. Vous pouvez choisir de ne pas venir, de rattraper votre quart un autre jour, ou simplement de le sauter. Vous êtes responsable de votre propre sécurité. Nous enverrons un courriel au moins une heure avant en cas d'annulation. En cas de canicule dangereuse, le quart prendra fin plus tôt.
+              <br><br><strong>Politiques d'annulation :</strong>
+              <ul>
+                <li>Alerte d'orage violent → quart annulé</li>
+                <li>Veille d'orage seulement → quart maintenu</li>
+                <li>Alerte ou veille de tornade → quart annulé</li>
+                <li>Canicule dangereuse → quart écourté ou annulé</li>
+              </ul>
+            </span>
+            <span class="en">If it's raining or hot, the shift goes ahead as planned. You can choose not to come, make up your shift another day, or simply skip it. You are responsible for your own safety. We'll send an email at least one hour before if cancellation is necessary. During a dangerous heat wave, the shift will end early.
+              <br><br><strong>Cancellation policies:</strong>
+              <ul>
+                <li>Severe thunderstorm warning → shift cancelled</li>
+                <li>Thunderstorm watch only → shift goes ahead</li>
+                <li>Tornado watch or warning → shift cancelled</li>
+                <li>Dangerous heat wave → shift shortened or cancelled</li>
+              </ul>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          <span>
+            <span class="fr">Est-ce que je peux amener mes enfants ou un ami?</span>
+            <span class="en">Can I bring my children or a friend?</span>
+          </span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            <span class="fr"><strong>Enfants :</strong> Les personnes participantes de tous âges sont les bienvenu·e·s! Un adulte doit être présent en tout temps pour surveiller les enfants et veiller à leur sécurité. Soyez vigilant·e près de la route en gravier où des voitures peuvent passer rapidement.<br><br><strong>Ami·e·s :</strong> Les ami·e·s sont les bienvenu·e·s pour participer aux tâches de la ferme. Les ami·e·s qui connaissent bien le programme peuvent couvrir votre quart et récupérer votre part de récolte si vous ne pouvez pas venir.</span>
+            <span class="en"><strong>Children:</strong> Participants of all ages are welcome! A guardian must be present at all times to supervise children and ensure their safety. Please be aware of the gravel road where cars can come by quickly.<br><br><strong>Friends:</strong> Friends are welcome to join and help with farm tasks. Friends who know the program well can cover shifts for you and collect your harvest share if you can't make it.</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          <span>
+            <span class="fr">Quelle est votre politique d'accessibilité?</span>
+            <span class="en">What is your accessibility policy?</span>
+          </span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            <span class="fr">La plantation, le désherbage et la récolte sont les principales activités pendant un quart à la ferme. L'agriculture est un travail physique et différentes personnes ont différents niveaux de confort. Les coordinateurs feront de leur mieux pour trouver des tâches adaptées à vos capacités. N'hésitez pas à nous contacter si vous avez des questions ou des besoins particuliers avant de vous inscrire.</span>
+            <span class="en">Planting, weeding and harvesting are the main activities during a farm shift. Farming is physical work and different people have different comfort levels. Coordinators will do their best to find tasks suited to your abilities. Don't hesitate to contact us if you have questions or specific needs before registering.</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          <span>
+            <span class="fr">Quelle est votre politique de remboursement?</span>
+            <span class="en">What is your refund policy?</span>
+          </span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            <span class="fr">Le Collectif Végé n'offre <strong>pas de remboursements</strong>. En tant qu'OBNL, nous dépendons des frais d'inscription pour couvrir les coûts du programme payés à l'avance (semences, équipement, location du terrain). Vous pouvez transférer votre place à un ami ou un membre de la famille. Si ce n'est pas possible, vos frais seront considérés comme un don au programme.</span>
+            <span class="en">The Veggie Collective does <strong>not offer refunds</strong>. As a non-profit, we rely on registration fees to cover program costs paid upfront (seeds, equipment, land rental). You can transfer your spot to a friend or family member. If you're unable to do so, your fee will be considered a donation to the program.</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          <span>
+            <span class="fr">Il n'y a plus de place. Puis-je être sur la liste d'attente?</span>
+            <span class="en">It's sold out. Can I be on the waitlist?</span>
+          </span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            <span class="fr">Oui! Envoyez-nous un courriel à <a href="mailto:collectifvege.veggiecollective@gmail.com">collectifvege.veggiecollective@gmail.com</a> pour être ajouté·e à la liste d'attente. Des places se libèrent parfois en cours de saison.</span>
+            <span class="en">Yes! Email us at <a href="mailto:collectifvege.veggiecollective@gmail.com">collectifvege.veggiecollective@gmail.com</a> to be added to the waitlist. Spots sometimes open up during the season.</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== WHAT TO BRING ===================== -->
+<section id="apporter">
+  <div class="container">
+    <span class="section-label">
+      <span class="fr">Quoi apporter</span><span class="en">What to bring</span>
+    </span>
+    <h2>
+      <span class="fr">Ce qu'il faut apporter à chaque quart</span>
+      <span class="en">What to bring to each shift</span>
+    </h2>
+    <div class="bring-grid">
+      <div>
+        <p class="bring-section-title">
+          <span class="fr">Pour vous</span><span class="en">For yourself</span>
+        </p>
+        <ul class="bring-list">
+          <li><span class="fr">Vêtements adaptés à la météo</span><span class="en">Weather-appropriate clothing</span></li>
+          <li><span class="fr">Bouteille d'eau et collations</span><span class="en">Water bottle and snacks</span></li>
+          <li><span class="fr">Chaussures fermées que vous n'avez pas peur de salir</span><span class="en">Closed-toe shoes you don't mind getting dirty</span></li>
+          <li><span class="fr">Gants de jardinage (nous en aurons des supplémentaires)</span><span class="en">Gardening gloves (we'll have extras)</span></li>
+          <li><span class="fr">Chapeau et crème solaire</span><span class="en">Hat and sunscreen</span></li>
+          <li><span class="fr">Répulsif anti-moustiques (à appliquer loin des légumes)</span><span class="en">Bug spray (apply away from the vegetables)</span></li>
+        </ul>
+      </div>
+      <div>
+        <p class="bring-section-title">
+          <span class="fr">Pour transporter vos légumes</span><span class="en">For your vegetables</span>
+        </p>
+        <ul class="bring-list">
+          <li><span class="fr">Grands sacs pour transporter vos légumes</span><span class="en">Large bags to carry your vegetables</span></li>
+          <li><span class="fr">Élastiques pour attacher les légumes</span><span class="en">Elastics to hold vegetables together</span></li>
+          <li><span class="fr">Sacs plastiques type Ziploc</span><span class="en">Ziploc-style plastic bags</span></li>
+          <li><span class="fr">Grands contenants de yogourt vides et propres</span><span class="en">Large clean empty yogurt containers</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== REGISTRATION ===================== -->
+<section id="inscription">
+  <div class="container">
+    <div class="register-header">
+      <span class="section-label">
+        <span class="fr">Inscription</span><span class="en">Registration</span>
+      </span>
+      <h2>
+        <span class="fr">Rejoignez-nous pour la saison 2026!</span>
+        <span class="en">Join us for the 2026 season!</span>
+      </h2>
+      <p>
+        <span class="fr">Sélectionnez votre type de part et sécurisez votre place. Votre inscription est confirmée une fois le paiement reçu. S'il n'y a plus de place, <a href="mailto:collectifvege.veggiecollective@gmail.com">contactez-nous</a> pour la liste d'attente.</span>
+        <span class="en">Select your share type and secure your spot. Your registration is confirmed once payment is received. If no spots are available, <a href="mailto:collectifvege.veggiecollective@gmail.com">contact us</a> for the waitlist.</span>
+      </p>
+    </div>
+    <div class="zeffy-wrapper">
+      <!--
+        Zeffy embed: if this doesn't load, log in to your Zeffy account,
+        go to your event, click "Share / Embed" and copy the official iframe src URL.
+        Replace the src below with that URL.
+      -->
+      <iframe
+        src="https://www.zeffy.com/fr-CA/embed/ticketing/collectif-vege-veggie-collectives-shop"
+        title="Collectif Végé — Inscription / Registration"
+        allow="payment"
+        loading="lazy">
+      </iframe>
+    </div>
+    <p class="register-note">
+      <span class="fr">Problème avec le formulaire? <a href="https://www.zeffy.com/fr-CA/ticketing/collectif-vege-veggie-collectives-shop" target="_blank" rel="noopener">Ouvrir la page Zeffy directement →</a></span>
+      <span class="en">Having trouble with the form? <a href="https://www.zeffy.com/fr-CA/ticketing/collectif-vege-veggie-collectives-shop" target="_blank" rel="noopener">Open the Zeffy page directly →</a></span>
+    </p>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer id="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand">
+          <span class="fr">Collectif Végé</span>
+          <span class="en">Veggie Collective</span>
+        </div>
+        <p class="footer-tagline">
+          <span class="fr">Nous plantons et récoltons ensemble.</span>
+          <span class="en">We plant and harvest together.</span>
+        </p>
+        <p class="footer-location">
+          <span class="fr">Ferme Moore, Gatineau QC<br>Secteur Val-Tétreau / Manoir des Trembles<br>Organisme sans but lucratif</span>
+          <span class="en">Moore Farm, Gatineau QC<br>Val-Tétreau / Manoir des Trembles area<br>Non-profit organization</span>
+        </p>
+      </div>
+      <div>
+        <p class="footer-heading">
+          <span class="fr">Navigation</span><span class="en">Navigation</span>
+        </p>
+        <ul class="footer-links">
+          <li><a href="#a-propos"><span class="fr">À propos</span><span class="en">About</span></a></li>
+          <li><a href="#fonctionnement"><span class="fr">Fonctionnement</span><span class="en">How it works</span></a></li>
+          <li><a href="#horaire"><span class="fr">Horaire</span><span class="en">Schedule</span></a></li>
+          <li><a href="#tarifs"><span class="fr">Tarifs</span><span class="en">Pricing</span></a></li>
+          <li><a href="#galerie"><span class="fr">La récolte</span><span class="en">The harvest</span></a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#inscription"><span class="fr">S'inscrire</span><span class="en">Register</span></a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <p class="footer-heading">
+          <span class="fr">Contact</span><span class="en">Contact</span>
+        </p>
+        <p style="font-size:0.85rem; color:rgba(255,255,255,0.45); margin-bottom:6px;">
+          <span class="fr">Questions? Écrivez-nous :</span>
+          <span class="en">Questions? Write to us:</span>
+        </p>
+        <a href="mailto:collectifvege.veggiecollective@gmail.com">collectifvege.veggiecollective@gmail.com</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>
+        © 2026 Collectif Végé / Veggie Collective.
+        <span class="fr"> Organisme sans but lucratif.</span>
+        <span class="en"> Non-profit organization.</span>
+      </span>
+      <span>
+        <span class="fr">Saison 2026</span>
+        <span class="en">Season 2026</span>
+      </span>
+    </div>
+  </div>
+</footer>
