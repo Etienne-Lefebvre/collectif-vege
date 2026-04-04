@@ -1,16 +1,8 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Collectif Végé | Veggie Collective, Gatineau [PREVIEW]</title>
-  <meta name="description" content="Collectif Végé est un organisme sans but lucratif à Gatineau où nous plantons, cultivons et récoltons ensemble.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Lato:wght@300;400;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+---
+layout: default
+title: "Collectif Végé | Veggie Collective — Gatineau"
+description: "Collectif Végé est un organisme sans but lucratif à Gatineau où nous plantons, cultivons et récoltons ensemble. Inscrivez-vous pour la saison 2026!"
+---
 
 <!-- ===================== NAVIGATION ===================== -->
 <nav id="navbar">
@@ -108,14 +100,14 @@
 <section id="community-photos">
   <div class="photo-strip">
     <div class="photo-strip-item">
-      <img src="../assets/images/farm-workers-2.jpg" alt="Bénévoles au travail à la Ferme Moore" loading="lazy">
+      <img src="{{ '/assets/images/farm-workers-2.jpg' | relative_url }}" alt="Bénévoles au travail à la Ferme Moore" loading="lazy">
       <div class="photo-strip-caption">
         <span class="fr">Le débriefing à la fin d'un quart</span>
         <span class="en">Debrief Session at the end of the shift</span>
       </div>
     </div>
     <div class="photo-strip-item">
-      <img src="../assets/images/picnic.jpg" alt="La communauté du Collectif Végé" loading="lazy">
+      <img src="{{ '/assets/images/picnic.jpg' | relative_url }}" alt="La communauté du Collectif Végé" loading="lazy">
       <div class="photo-strip-caption">
         <span class="fr">Accumulation de la récolte en fin de quart</span>
         <span class="en">Accumulating the end of shift harvest</span>
@@ -129,7 +121,7 @@
   <div class="container">
     <div class="about-grid">
       <div class="about-image">
-        <img src="../assets/images/gallery/harvest-9.jpg" alt="Récolte au Collectif Végé, Moore Farm, Gatineau">
+        <img src="{{ '/assets/images/gallery/harvest-9.jpg' | relative_url }}" alt="Récolte au Collectif Végé, Moore Farm, Gatineau">
       </div>
       <div class="about-text">
         <span class="section-label">
@@ -412,14 +404,14 @@
       </p>
     </div>
     <div class="gallery-grid">
-      <div class="gallery-item"><img src="../assets/images/gallery/harvest-1.jpg" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
-      <div class="gallery-item"><img src="../assets/images/gallery/harvest-2.jpg" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
-      <div class="gallery-item"><img src="../assets/images/gallery/harvest-3.jpg" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
-      <div class="gallery-item"><img src="../assets/images/gallery/harvest-4.jpg" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
-      <div class="gallery-item"><img src="../assets/images/gallery/harvest-5.jpg" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
-      <div class="gallery-item"><img src="../assets/images/gallery/harvest-6.jpg" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
-      <div class="gallery-item"><img src="../assets/images/gallery/harvest-7.jpg" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
-      <div class="gallery-item"><img src="../assets/images/gallery/harvest-8.jpg" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="{{ '/assets/images/gallery/harvest-1.jpg' | relative_url }}" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="{{ '/assets/images/gallery/harvest-2.jpg' | relative_url }}" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="{{ '/assets/images/gallery/harvest-3.jpg' | relative_url }}" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="{{ '/assets/images/gallery/harvest-4.jpg' | relative_url }}" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="{{ '/assets/images/gallery/harvest-5.jpg' | relative_url }}" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="{{ '/assets/images/gallery/harvest-6.jpg' | relative_url }}" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="{{ '/assets/images/gallery/harvest-7.jpg' | relative_url }}" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="{{ '/assets/images/gallery/harvest-8.jpg' | relative_url }}" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
       <div class="gallery-item"><img src="../assets/images/gallery/harvest-9.jpg" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
     </div>
   </div>
@@ -704,6 +696,3 @@
   </div>
 </footer>
 
-<script src="./main.js"></script>
-</body>
-</html>
