@@ -336,7 +336,7 @@ body.lang-en .lang-en-label { color: var(--white); font-weight: 900; }
   min-height: 100vh;
   background:
     linear-gradient(rgba(20, 40, 8, 0.62), rgba(30, 55, 10, 0.55)),
-    url('../assets/images/farm-workers-6.jpg') center / cover no-repeat;
+    url('../images/farm-workers-6.jpg') center / cover no-repeat;
   /* Fallback if photo not yet saved: */
   background-color: var(--green-dark);
   display: flex;
