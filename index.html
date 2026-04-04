@@ -1,8 +1,16 @@
----
-layout: default
-title: "Collectif Végé | Veggie Collective — Gatineau"
-description: "Collectif Végé est un organisme sans but lucratif à Gatineau où nous plantons, cultivons et récoltons ensemble. Inscrivez-vous pour la saison 2026!"
----
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collectif Végé | Veggie Collective, Gatineau [PREVIEW]</title>
+  <meta name="description" content="Collectif Végé est un organisme sans but lucratif à Gatineau où nous plantons, cultivons et récoltons ensemble.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Lato:wght@300;400;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
 
 <!-- ===================== NAVIGATION ===================== -->
 <nav id="navbar">
@@ -92,17 +100,22 @@ description: "Collectif Végé est un organisme sans but lucratif à Gatineau o�
 </section>
 
 <!-- ===================== COMMUNITY PHOTO STRIP ===================== -->
+<!--
+  Save your two farm-workers photos here:
+    assets/images/farm-workers-1.jpg  (people working in rows)
+    assets/images/farm-workers-2.jpg  (community gathering in field)
+-->
 <section id="community-photos">
   <div class="photo-strip">
     <div class="photo-strip-item">
-      <img src="{{ '/assets/images/farm-workers-2.jpg' | relative_url }}" alt="Bénévoles au travail à la Ferme Moore" loading="lazy">
+      <img src="../assets/images/farm-workers-2.jpg" alt="Bénévoles au travail à la Ferme Moore" loading="lazy">
       <div class="photo-strip-caption">
         <span class="fr">Le débriefing à la fin d'un quart</span>
-        <span class="en">Debrief session at the end of a shift</span>
+        <span class="en">Debrief Session at the end of the shift</span>
       </div>
     </div>
     <div class="photo-strip-item">
-      <img src="{{ '/assets/images/picnic.jpg' | relative_url }}" alt="La communauté du Collectif Végé" loading="lazy">
+      <img src="../assets/images/picnic.jpg" alt="La communauté du Collectif Végé" loading="lazy">
       <div class="photo-strip-caption">
         <span class="fr">Accumulation de la récolte en fin de quart</span>
         <span class="en">Accumulating the end of shift harvest</span>
@@ -116,7 +129,7 @@ description: "Collectif Végé est un organisme sans but lucratif à Gatineau o�
   <div class="container">
     <div class="about-grid">
       <div class="about-image">
-        <img src="{{ '/assets/images/gallery/harvest-9.jpg' | relative_url }}" alt="Récolte au Collectif Végé, Moore Farm, Gatineau">
+        <img src="../assets/images/gallery/harvest-9.jpg" alt="Récolte au Collectif Végé, Moore Farm, Gatineau">
       </div>
       <div class="about-text">
         <span class="section-label">
@@ -237,8 +250,8 @@ description: "Collectif Végé est un organisme sans but lucratif à Gatineau o�
       </div>
     </div>
     <div class="schedule-note">
-      <span class="fr">💡 <strong>Vous pouvez manquer jusqu'à 2 quarts pendant la saison</strong> sans impact sur le groupe. Des vacances d'été sans culpabilité! Au-delà de 2 absences, nous vous demandons de communiquer avec votre coordinateur.</span>
-      <span class="en">💡 <strong>You can skip up to 2 shifts during the season</strong> without impacting the group. Guilt-free summer vacation! Beyond 2 absences, we ask you to check in with your coordinator.</span>
+      <span class="fr"> <strong>Vous pouvez manquer jusqu'à 2 quarts pendant la saison</strong> sans impact sur le groupe. Des vacances d'été sans culpabilité! Au-delà de 2 absences, nous vous demandons de communiquer avec votre coordinateur.</span>
+      <span class="en"> <strong>You can skip up to 2 shifts during the season</strong> without impacting the group. Guilt-free summer vacation! Beyond 2 absences, we ask you to check in with your coordinator.</span>
     </div>
   </div>
 </section>
@@ -317,9 +330,9 @@ description: "Collectif Végé est un organisme sans but lucratif à Gatineau o�
         </p>
       </div>
     </div>
-    <div class="subsidized-note">
-      <span class="fr">🌿 <strong>À propos des frais :</strong> Les frais d'inscription couvrent les semences, les plants, les outils, la location d'équipement de labourage, les engrais, la location du terrain, l'assurance et le matériel d'irrigation. <strong>Aucun remboursement.</strong> Votre place peut toutefois être transférée à un ami ou un membre de la famille.</span>
-      <span class="en">🌿 <strong>About fees:</strong> Registration fees cover seeds, seedlings, tools, rented tilling equipment, fertilizer, land rental, insurance, and irrigation equipment. <strong>No refunds.</strong> Your spot can be transferred to a friend or family member.</span>
+    <div class="schedule-note">
+      <span class="fr"> <strong>À propos des frais :</strong> Les frais d'inscription couvrent les semences, les plants, les outils, la location d'équipement de labourage, les engrais, la location du terrain, l'assurance et le matériel d'irrigation. <strong>Aucun remboursement.</strong> Votre place peut toutefois être transférée à un ami ou un membre de la famille.</span>
+      <span class="en"> <strong>About fees:</strong> Registration fees cover seeds, seedlings, tools, rented tilling equipment, fertilizer, land rental, insurance, and irrigation equipment. <strong>No refunds.</strong> Your spot can be transferred to a friend or family member.</span>
     </div>
   </div>
 </section>
@@ -350,7 +363,7 @@ description: "Collectif Végé est un organisme sans but lucratif à Gatineau o�
         </p>
       </div>
       <div class="date-card">
-        <div class="date-icon">🎃</div>
+        <div class="date-icon">🥕</div>
         <span class="date-label">
           <span class="fr">Fin de saison</span><span class="en">End of season</span>
         </span>
@@ -399,15 +412,15 @@ description: "Collectif Végé est un organisme sans but lucratif à Gatineau o�
       </p>
     </div>
     <div class="gallery-grid">
-      <div class="gallery-item"><img src="{{ '/assets/images/gallery/harvest-1.jpg' | relative_url }}" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
-      <div class="gallery-item"><img src="{{ '/assets/images/gallery/harvest-2.jpg' | relative_url }}" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
-      <div class="gallery-item"><img src="{{ '/assets/images/gallery/harvest-3.jpg' | relative_url }}" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
-      <div class="gallery-item"><img src="{{ '/assets/images/gallery/harvest-4.jpg' | relative_url }}" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
-      <div class="gallery-item"><img src="{{ '/assets/images/gallery/harvest-5.jpg' | relative_url }}" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
-      <div class="gallery-item"><img src="{{ '/assets/images/gallery/harvest-6.jpg' | relative_url }}" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
-      <div class="gallery-item"><img src="{{ '/assets/images/gallery/harvest-7.jpg' | relative_url }}" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
-      <div class="gallery-item"><img src="{{ '/assets/images/gallery/harvest-8.jpg' | relative_url }}" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
-      <div class="gallery-item"><img src="{{ '/assets/images/gallery/harvest-9.jpg' | relative_url }}" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="../assets/images/gallery/harvest-1.jpg" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="../assets/images/gallery/harvest-2.jpg" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="../assets/images/gallery/harvest-3.jpg" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="../assets/images/gallery/harvest-4.jpg" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="../assets/images/gallery/harvest-5.jpg" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="../assets/images/gallery/harvest-6.jpg" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="../assets/images/gallery/harvest-7.jpg" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="../assets/images/gallery/harvest-8.jpg" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="../assets/images/gallery/harvest-9.jpg" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
     </div>
   </div>
 </section>
@@ -615,6 +628,10 @@ description: "Collectif Végé est un organisme sans but lucratif à Gatineau o�
         <span class="en">Select your share type and secure your spot. Your registration is confirmed once payment is received. If no spots are available, <a href="mailto:collectifvege.veggiecollective@gmail.com">contact us</a> for the waitlist.</span>
       </p>
     </div>
+      <p class="register-note">
+      <span class="fr">Problème avec le formulaire? <a href="https://www.zeffy.com/fr-CA/ticketing/collectif-vege-veggie-collectives-shop" target="_blank" rel="noopener">Ouvrir la page Zeffy directement →</a></span>
+      <span class="en">Having trouble with the form? <a href="https://www.zeffy.com/fr-CA/ticketing/collectif-vege-veggie-collectives-shop" target="_blank" rel="noopener">Open the Zeffy page directly →</a></span>
+    </p>
     <div class="zeffy-wrapper">
       <iframe
         src="https://www.zeffy.com/fr-CA/embed/ticketing/collectif-vege-veggie-collectives-shop"
@@ -686,3 +703,7 @@ description: "Collectif Végé est un organisme sans but lucratif à Gatineau o�
     </div>
   </div>
 </footer>
+
+<script src="./main.js"></script>
+</body>
+</html>
