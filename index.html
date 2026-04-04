@@ -37,8 +37,8 @@ description: "Collectif Végé est un organisme sans but lucratif à Gatineau o�
 <section id="hero">
   <div class="hero-inner">
     <div class="hero-badge">
-      <span class="fr">Saison 2026 — Gatineau, QC</span>
-      <span class="en">2026 Season — Gatineau, QC</span>
+      <span class="fr">Saison 2026, Gatineau, QC</span>
+      <span class="en">2026 Season, Gatineau, QC</span>
     </div>
     <h1 class="hero-title">
       <span class="fr">Collectif <em>Végé</em></span>
@@ -50,8 +50,8 @@ description: "Collectif Végé est un organisme sans but lucratif à Gatineau o�
     </p>
     <div class="hero-ctas">
       <a href="#inscription" class="btn btn-primary btn-lg">
-        <span class="fr">S'inscrire — Saison 2026</span>
-        <span class="en">Register — 2026 Season</span>
+        <span class="fr">S'inscrire pour la Saison 2026</span>
+        <span class="en">Register for the 2026 Season</span>
       </a>
       <a href="#fonctionnement" class="btn btn-outline btn-lg">
         <span class="fr">Comment ça fonctionne</span>
@@ -91,13 +91,32 @@ description: "Collectif Végé est un organisme sans but lucratif à Gatineau o�
   </div>
 </section>
 
+<!-- ===================== COMMUNITY PHOTO STRIP ===================== -->
+<section id="community-photos">
+  <div class="photo-strip">
+    <div class="photo-strip-item">
+      <img src="{{ '/assets/images/farm-workers-2.jpg' | relative_url }}" alt="Bénévoles au travail à la Ferme Moore" loading="lazy">
+      <div class="photo-strip-caption">
+        <span class="fr">Le débriefing à la fin d'un quart</span>
+        <span class="en">Debrief session at the end of a shift</span>
+      </div>
+    </div>
+    <div class="photo-strip-item">
+      <img src="{{ '/assets/images/picnic.jpg' | relative_url }}" alt="La communauté du Collectif Végé" loading="lazy">
+      <div class="photo-strip-caption">
+        <span class="fr">Accumulation de la récolte en fin de quart</span>
+        <span class="en">Accumulating the end of shift harvest</span>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ===================== ABOUT ===================== -->
 <section id="a-propos">
   <div class="container">
     <div class="about-grid">
       <div class="about-image">
-        <!-- Copy one of your farm photos to assets/images/gallery/ and update this src -->
-        <img src="{{ '/assets/images/gallery/IMG_2617.jpg' | relative_url }}" alt="Récolte au Collectif Végé — Moore Farm, Gatineau">
+        <img src="{{ '/assets/images/gallery/harvest-9.jpg' | relative_url }}" alt="Récolte au Collectif Végé, Moore Farm, Gatineau">
       </div>
       <div class="about-text">
         <span class="section-label">
@@ -112,8 +131,8 @@ description: "Collectif Végé est un organisme sans but lucratif à Gatineau o�
           <span class="en">The Veggie Collective is a non-profit located at Moore Farm in Gatineau (Val-Tétreau / Manoir des Trembles). Together, we plant, grow and harvest fresh vegetables while building community bonds and sharing farming knowledge.</span>
         </p>
         <p>
-          <span class="fr">Aucune expérience agricole requise. Nos coordinateurs bénévoles guident les tâches chaque semaine — plantations, arrosage, désherbage et récolte. Vous repartirez avec de beaux légumes frais <strong>et</strong> de nouvelles compétences pour votre propre jardin.</span>
-          <span class="en">No farming experience needed. Our volunteer coordinators guide the tasks each week — planting, watering, weeding and harvesting. You'll go home with beautiful fresh vegetables <strong>and</strong> new skills for your own garden.</span>
+          <span class="fr">Aucune expérience agricole requise. Nos coordinateurs bénévoles guident les tâches chaque semaine : plantations, arrosage, désherbage et récolte. Vous repartirez avec de beaux légumes frais et de nouvelles compétences pour votre propre jardin.</span>
+          <span class="en">No farming experience needed. Our volunteer coordinators guide the tasks each week: planting, watering, weeding and harvesting. You'll go home with beautiful fresh vegetables and new skills for your own garden.</span>
         </p>
         <p>
           <strong><span class="fr">Lieu :</span><span class="en">Location:</span></strong>
@@ -160,8 +179,8 @@ description: "Collectif Végé est un organisme sans but lucratif à Gatineau o�
           <span class="en">Come to the farm</span>
         </h3>
         <p>
-          <span class="fr">Présentez-vous à votre quart de 3 heures à la Ferme Moore. Sous la direction d'un coordinateur bénévole, vous planterez, arrosiez, désherbez et récolterez avec vos coéquipiers (15–20 personnes par quart).</span>
-          <span class="en">Show up for your 3-hour shift at Moore Farm. Under a volunteer coordinator's guidance, you'll plant, water, weed and harvest alongside your teammates (15–20 people per shift).</span>
+          <span class="fr">Présentez-vous à votre quart de 3 heures à la Ferme Moore. Sous la direction d'un coordinateur bénévole, vous planterez, arrosiez, désherbez et récolterez avec vos coéquipiers (10–16 personnes par quart).</span>
+          <span class="en">Show up for your 3-hour shift at Moore Farm. Under a volunteer coordinator's guidance, you'll plant, water, weed and harvest alongside other veggie collective members (10–16 people per shift).</span>
         </p>
       </div>
       <div class="step">
@@ -191,34 +210,29 @@ description: "Collectif Végé est un organisme sans but lucratif à Gatineau o�
         <span class="en">5 shifts available per week</span>
       </h2>
       <p>
-        <span class="fr">Choisissez le jour qui vous convient le mieux. Chaque quart dure 3 heures et accueille 15 à 20 personnes. Si vous avez un conflit un semaine, vous pouvez assister à un autre quart cette semaine-là.</span>
+        <span class="fr">Choisissez le jour qui vous convient le mieux. Chaque quart dure 3 heures et accueille 15 à 20 personnes. Si vous avez un conflit une semaine, vous pouvez assister à un autre quart cette semaine-là.</span>
         <span class="en">Choose the day that works best for you. Each shift is 3 hours long and welcomes 15 to 20 participants. If you have a scheduling conflict one week, you can attend a different shift that week.</span>
       </p>
     </div>
     <div class="schedule-grid">
       <div class="day-card">
         <div class="day-name"><span class="fr">Lundi</span><span class="en">Monday</span></div>
-        <span class="day-label"><span class="fr">En semaine</span><span class="en">Weekday</span></span>
         <div class="day-time">17h00 – 20h00</div>
       </div>
       <div class="day-card">
         <div class="day-name"><span class="fr">Mardi</span><span class="en">Tuesday</span></div>
-        <span class="day-label"><span class="fr">En semaine</span><span class="en">Weekday</span></span>
         <div class="day-time">17h00 – 20h00</div>
       </div>
       <div class="day-card">
         <div class="day-name"><span class="fr">Mercredi</span><span class="en">Wednesday</span></div>
-        <span class="day-label"><span class="fr">En semaine</span><span class="en">Weekday</span></span>
         <div class="day-time">17h00 – 20h00</div>
       </div>
       <div class="day-card">
         <div class="day-name"><span class="fr">Jeudi</span><span class="en">Thursday</span></div>
-        <span class="day-label"><span class="fr">En semaine</span><span class="en">Weekday</span></span>
         <div class="day-time">17h00 – 20h00</div>
       </div>
-      <div class="day-card highlight">
+      <div class="day-card">
         <div class="day-name"><span class="fr">Samedi</span><span class="en">Saturday</span></div>
-        <span class="day-label"><span class="fr">Fin de semaine</span><span class="en">Weekend</span></span>
         <div class="day-time">9h30 – 12h30</div>
       </div>
     </div>
@@ -237,8 +251,8 @@ description: "Collectif Végé est un organisme sans but lucratif à Gatineau o�
         <span class="fr">Parts et tarifs</span><span class="en">Shares & pricing</span>
       </span>
       <h2>
-        <span class="fr">Payez ce que vous pouvez</span>
-        <span class="en">Pay what you can</span>
+        <span class="fr">Tarifs flexibles</span>
+        <span class="en">Flexible pricing</span>
       </h2>
       <p class="pricing-intro">
         <span class="fr">La valeur des légumes reçus est plus du double des frais d'inscription. Cette année, grâce au soutien du conseiller de la ville de Gatineau, des parts subventionnées sont disponibles pour les membres de la communauté qui en ont besoin. Si vous pouvez contribuer davantage, vous aidez à rendre le programme accessible à tous.</span>
@@ -246,7 +260,7 @@ description: "Collectif Végé est un organisme sans but lucratif à Gatineau o�
       </p>
     </div>
     <div class="pricing-grid">
-      <div class="price-card featured">
+      <div class="price-card">
         <span class="price-card-label"><span class="fr">Part entière</span><span class="en">Full share</span></span>
         <h3><span class="fr">Part entière</span><span class="en">Full share</span></h3>
         <div class="price-amount">300$ – 400$</div>
@@ -278,7 +292,7 @@ description: "Collectif Végé est un organisme sans but lucratif à Gatineau o�
         <span class="price-card-label"><span class="fr">Part entière subventionnée</span><span class="en">Subsidized full share</span></span>
         <h3><span class="fr">Part entière subventionnée</span><span class="en">Subsidized full share</span></h3>
         <div class="price-amount">150$</div>
-        <div class="price-range"><span class="fr">prix fixe — places limitées</span><span class="en">fixed price — limited spots</span></div>
+        <div class="price-range"><span class="fr">prix fixe, places limitées</span><span class="en">fixed price, limited spots</span></div>
         <p class="price-desc">
           <span class="fr">Un quart de 3h <strong>chaque semaine</strong>. Mêmes avantages que la part entière, à tarif réduit.</span>
           <span class="en">One 3-hour shift <strong>every week</strong>. Same benefits as full share, at a reduced rate.</span>
@@ -292,7 +306,7 @@ description: "Collectif Végé est un organisme sans but lucratif à Gatineau o�
         <span class="price-card-label"><span class="fr">Demi-part subventionnée</span><span class="en">Subsidized half share</span></span>
         <h3><span class="fr">Demi-part subventionnée</span><span class="en">Subsidized half share</span></h3>
         <div class="price-amount">75$</div>
-        <div class="price-range"><span class="fr">prix fixe — places limitées</span><span class="en">fixed price — limited spots</span></div>
+        <div class="price-range"><span class="fr">prix fixe, places limitées</span><span class="en">fixed price, limited spots</span></div>
         <p class="price-desc">
           <span class="fr">Un quart de 3h <strong>toutes les deux semaines</strong>. Tarif réduit pour les membres qui en ont besoin.</span>
           <span class="en">One 3-hour shift <strong>every two weeks</strong>. Reduced rate for members who need it.</span>
@@ -304,8 +318,8 @@ description: "Collectif Végé est un organisme sans but lucratif à Gatineau o�
       </div>
     </div>
     <div class="subsidized-note">
-      <span class="fr">🌿 <strong>À propos des frais :</strong> Les frais d'inscription couvrent les semences, les plants, les outils, la location d'équipement de labourage, les engrais, la location du terrain, l'assurance et le matériel d'irrigation. <strong>Aucun remboursement</strong> — votre place peut toutefois être transférée à un ami ou un membre de la famille.</span>
-      <span class="en">🌿 <strong>About fees:</strong> Registration fees cover seeds, seedlings, tools, rented tilling equipment, fertilizer, land rental, insurance, and irrigation equipment. <strong>No refunds</strong> — your spot can be transferred to a friend or family member.</span>
+      <span class="fr">🌿 <strong>À propos des frais :</strong> Les frais d'inscription couvrent les semences, les plants, les outils, la location d'équipement de labourage, les engrais, la location du terrain, l'assurance et le matériel d'irrigation. <strong>Aucun remboursement.</strong> Votre place peut toutefois être transférée à un ami ou un membre de la famille.</span>
+      <span class="en">🌿 <strong>About fees:</strong> Registration fees cover seeds, seedlings, tools, rented tilling equipment, fertilizer, land rental, insurance, and irrigation equipment. <strong>No refunds.</strong> Your spot can be transferred to a friend or family member.</span>
     </div>
   </div>
 </section>
@@ -317,8 +331,8 @@ description: "Collectif Végé est un organisme sans but lucratif à Gatineau o�
       <span class="fr">Calendrier</span><span class="en">Calendar</span>
     </span>
     <h2>
-      <span class="fr">Dates importantes — Saison 2026</span>
-      <span class="en">Important dates — 2026 season</span>
+      <span class="fr">Dates importantes, Saison 2026</span>
+      <span class="en">Important dates, 2026 season</span>
     </h2>
     <div class="dates-grid">
       <div class="date-card">
@@ -336,7 +350,7 @@ description: "Collectif Végé est un organisme sans but lucratif à Gatineau o�
         </p>
       </div>
       <div class="date-card">
-        <div class="date-icon">🥕</div>
+        <div class="date-icon">🎃</div>
         <span class="date-label">
           <span class="fr">Fin de saison</span><span class="en">End of season</span>
         </span>
@@ -349,11 +363,11 @@ description: "Collectif Végé est un organisme sans but lucratif à Gatineau o�
           <span class="en">Last regular shift of the season.</span>
         </p>
       </div>
-      <div class="date-card mandatory">
+      <div class="date-card">
         <div class="date-icon">🧹</div>
         <span class="date-label">
-          <span class="fr">Nettoyage de fin de saison — OBLIGATOIRE</span>
-          <span class="en">End-of-season cleanup — MANDATORY</span>
+          <span class="fr">Nettoyage de fin de saison (OBLIGATOIRE)</span>
+          <span class="en">End-of-season cleanup (MANDATORY)</span>
         </span>
         <div class="date-value">
           <span class="fr">Samedi 24 octobre 2026</span>
@@ -380,27 +394,20 @@ description: "Collectif Végé est un organisme sans but lucratif à Gatineau o�
         <span class="en">What can you expect?</span>
       </h2>
       <p>
-        <span class="fr">Ces photos ont été prises par un membre tout au long de la saison 2025 — chaque photo représente une vraie part de récolte hebdomadaire, du printemps jusqu'à l'automne. La récolte est plus légère en début de saison et s'intensifie au fur et à mesure que les cultures mûrissent. <strong>Le succès d'une variété n'est jamais garanti</strong>, car les conditions climatiques et les ravageurs peuvent affecter la récolte.</span>
-        <span class="en">These photos were taken by a member throughout the 2025 season — each photo shows a real weekly harvest share, from spring through fall. The harvest starts lighter and grows more abundant as crops mature. <strong>Crop yields are never guaranteed</strong>, as weather conditions and pest pressure can affect output.</span>
+        <span class="fr">Ces photos ont été prises par un membre tout au long de la saison 2025. Chaque photo représente une vraie part de récolte hebdomadaire, du printemps jusqu'à l'automne. La récolte est plus légère en début de saison et s'intensifie au fur et à mesure que les cultures mûrissent. <strong>Le succès d'une variété n'est jamais garanti</strong>, car les conditions climatiques et les ravageurs peuvent affecter la récolte.</span>
+        <span class="en">These photos were taken by a member throughout the 2025 season. Each photo shows a real weekly harvest share, from spring through fall. The harvest starts lighter and grows more abundant as crops mature. <strong>Crop yields are never guaranteed</strong>, as weather conditions and pest pressure can affect output.</span>
       </p>
     </div>
-    <!-- To display these photos: copy the files from "weekly-share-photo/" into "assets/images/gallery/" -->
     <div class="gallery-grid">
-      <div class="gallery-item"><img src="{{ '/assets/images/gallery/IMG_2546.jpg' | relative_url }}" alt="Part de récolte — Collectif Végé 2025" loading="lazy"></div>
-      <div class="gallery-item"><img src="{{ '/assets/images/gallery/IMG_2549.jpg' | relative_url }}" alt="Part de récolte — Collectif Végé 2025" loading="lazy"></div>
-      <div class="gallery-item"><img src="{{ '/assets/images/gallery/IMG_2552.jpg' | relative_url }}" alt="Part de récolte — Collectif Végé 2025" loading="lazy"></div>
-      <div class="gallery-item"><img src="{{ '/assets/images/gallery/IMG_2556.jpg' | relative_url }}" alt="Part de récolte — Collectif Végé 2025" loading="lazy"></div>
-      <div class="gallery-item"><img src="{{ '/assets/images/gallery/IMG_2560.jpg' | relative_url }}" alt="Part de récolte — Collectif Végé 2025" loading="lazy"></div>
-      <div class="gallery-item"><img src="{{ '/assets/images/gallery/IMG_2567.jpg' | relative_url }}" alt="Part de récolte — Collectif Végé 2025" loading="lazy"></div>
-      <div class="gallery-item"><img src="{{ '/assets/images/gallery/IMG_2588.jpg' | relative_url }}" alt="Part de récolte — Collectif Végé 2025" loading="lazy"></div>
-      <div class="gallery-item"><img src="{{ '/assets/images/gallery/IMG_2595.jpg' | relative_url }}" alt="Part de récolte — Collectif Végé 2025" loading="lazy"></div>
-      <div class="gallery-item"><img src="{{ '/assets/images/gallery/IMG_2599.jpg' | relative_url }}" alt="Part de récolte — Collectif Végé 2025" loading="lazy"></div>
-      <div class="gallery-item"><img src="{{ '/assets/images/gallery/IMG_2604.jpg' | relative_url }}" alt="Part de récolte — Collectif Végé 2025" loading="lazy"></div>
-      <div class="gallery-item"><img src="{{ '/assets/images/gallery/IMG_2609.jpg' | relative_url }}" alt="Part de récolte — Collectif Végé 2025" loading="lazy"></div>
-      <div class="gallery-item"><img src="{{ '/assets/images/gallery/IMG_2613.jpg' | relative_url }}" alt="Part de récolte — Collectif Végé 2025" loading="lazy"></div>
-      <div class="gallery-item"><img src="{{ '/assets/images/gallery/IMG_2614.jpg' | relative_url }}" alt="Part de récolte — Collectif Végé 2025" loading="lazy"></div>
-      <div class="gallery-item"><img src="{{ '/assets/images/gallery/IMG_2615.jpg' | relative_url }}" alt="Part de récolte — Collectif Végé 2025" loading="lazy"></div>
-      <div class="gallery-item"><img src="{{ '/assets/images/gallery/IMG_2617.jpg' | relative_url }}" alt="Part de récolte — Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="{{ '/assets/images/gallery/harvest-1.jpg' | relative_url }}" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="{{ '/assets/images/gallery/harvest-2.jpg' | relative_url }}" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="{{ '/assets/images/gallery/harvest-3.jpg' | relative_url }}" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="{{ '/assets/images/gallery/harvest-4.jpg' | relative_url }}" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="{{ '/assets/images/gallery/harvest-5.jpg' | relative_url }}" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="{{ '/assets/images/gallery/harvest-6.jpg' | relative_url }}" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="{{ '/assets/images/gallery/harvest-7.jpg' | relative_url }}" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="{{ '/assets/images/gallery/harvest-8.jpg' | relative_url }}" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
+      <div class="gallery-item"><img src="{{ '/assets/images/gallery/harvest-9.jpg' | relative_url }}" alt="Part de récolte, Collectif Végé 2025" loading="lazy"></div>
     </div>
   </div>
 </section>
@@ -431,10 +438,7 @@ description: "Collectif Végé est un organisme sans but lucratif à Gatineau o�
 
       <div class="faq-item">
         <button class="faq-question">
-          <span>
-            <span class="fr">Dois-je venir à la ferme chaque semaine?</span>
-            <span class="en">Do I have to come to the farm every week?</span>
-          </span>
+          <span><span class="fr">Dois-je venir à la ferme chaque semaine?</span><span class="en">Do I have to come to the farm every week?</span></span>
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer">
@@ -447,10 +451,7 @@ description: "Collectif Végé est un organisme sans but lucratif à Gatineau o�
 
       <div class="faq-item">
         <button class="faq-question">
-          <span>
-            <span class="fr">Ai-je besoin d'une expérience préalable en jardinage?</span>
-            <span class="en">Do I need prior gardening experience?</span>
-          </span>
+          <span><span class="fr">Ai-je besoin d'une expérience préalable en jardinage?</span><span class="en">Do I need prior gardening experience?</span></span>
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer">
@@ -463,26 +464,20 @@ description: "Collectif Végé est un organisme sans but lucratif à Gatineau o�
 
       <div class="faq-item">
         <button class="faq-question">
-          <span>
-            <span class="fr">Combien de légumes vais-je recevoir?</span>
-            <span class="en">How many vegetables will I receive?</span>
-          </span>
+          <span><span class="fr">Combien de légumes vais-je recevoir?</span><span class="en">How many vegetables will I receive?</span></span>
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer">
           <div class="faq-answer-inner">
-            <span class="fr">La valeur des légumes reçus dépasse largement le double du coût d'inscription. La récolte est plus légère au printemps (principalement des légumes verts), puis s'intensifie — vous pouvez vous attendre à <strong>deux grands sacs d'épicerie remplis de légumes et fruits frais</strong> en pleine saison. Consultez la galerie ci-dessus pour voir de vraies photos de parts de la saison 2025. <strong>Le succès d'une variété n'est jamais garanti</strong>, car les conditions climatiques et les ravageurs peuvent affecter la récolte.</span>
-            <span class="en">The value of vegetables you receive is well over double the registration cost. The harvest is lighter in spring (mostly greens), then grows — you can expect <strong>up to two full grocery bags of fresh vegetables and fruit</strong> at peak season. See the gallery above for real photos of shares from the 2025 season. <strong>Crop yields are never guaranteed</strong>, as weather conditions and pest pressure can affect output.</span>
+            <span class="fr">La valeur des légumes reçus dépasse largement le double du coût d'inscription. La récolte est plus légère au printemps (principalement des légumes verts), puis s'intensifie. En pleine saison, attendez-vous à <strong>deux grands sacs d'épicerie remplis de légumes et fruits frais</strong>. Consultez la galerie ci-dessus pour voir de vraies photos de parts de la saison 2025. <strong>Le succès d'une variété n'est jamais garanti</strong>, car les conditions climatiques et les ravageurs peuvent affecter la récolte.</span>
+            <span class="en">The value of vegetables you receive is well over double the registration cost. The harvest is lighter in spring (mostly greens), then grows. At peak season, you can expect <strong>up to two full grocery bags of fresh vegetables and fruit</strong>. See the gallery above for real photos of shares from the 2025 season. <strong>Crop yields are never guaranteed</strong>, as weather conditions and pest pressure can affect output.</span>
           </div>
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question">
-          <span>
-            <span class="fr">Que fait-on en cas de mauvaise météo?</span>
-            <span class="en">What happens in bad weather?</span>
-          </span>
+          <span><span class="fr">Que fait-on en cas de mauvaise météo?</span><span class="en">What happens in bad weather?</span></span>
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer">
@@ -493,7 +488,7 @@ description: "Collectif Végé est un organisme sans but lucratif à Gatineau o�
                 <li>Alerte d'orage violent → quart annulé</li>
                 <li>Veille d'orage seulement → quart maintenu</li>
                 <li>Alerte ou veille de tornade → quart annulé</li>
-                <li>Canicule dangereuse → quart écourté ou annulé</li>
+                <li>Canicule ou chaleur extreme → quart écourté</li>
               </ul>
             </span>
             <span class="en">If it's raining or hot, the shift goes ahead as planned. You can choose not to come, make up your shift another day, or simply skip it. You are responsible for your own safety. We'll send an email at least one hour before if cancellation is necessary. During a dangerous heat wave, the shift will end early.
@@ -502,7 +497,7 @@ description: "Collectif Végé est un organisme sans but lucratif à Gatineau o�
                 <li>Severe thunderstorm warning → shift cancelled</li>
                 <li>Thunderstorm watch only → shift goes ahead</li>
                 <li>Tornado watch or warning → shift cancelled</li>
-                <li>Dangerous heat wave → shift shortened or cancelled</li>
+                <li>Heat wave or extreme heat → shift shortened</li>
               </ul>
             </span>
           </div>
@@ -511,10 +506,7 @@ description: "Collectif Végé est un organisme sans but lucratif à Gatineau o�
 
       <div class="faq-item">
         <button class="faq-question">
-          <span>
-            <span class="fr">Est-ce que je peux amener mes enfants ou un ami?</span>
-            <span class="en">Can I bring my children or a friend?</span>
-          </span>
+          <span><span class="fr">Est-ce que je peux amener mes enfants ou un ami?</span><span class="en">Can I bring my children or a friend?</span></span>
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer">
@@ -527,10 +519,7 @@ description: "Collectif Végé est un organisme sans but lucratif à Gatineau o�
 
       <div class="faq-item">
         <button class="faq-question">
-          <span>
-            <span class="fr">Quelle est votre politique d'accessibilité?</span>
-            <span class="en">What is your accessibility policy?</span>
-          </span>
+          <span><span class="fr">Quelle est votre politique d'accessibilité?</span><span class="en">What is your accessibility policy?</span></span>
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer">
@@ -543,10 +532,7 @@ description: "Collectif Végé est un organisme sans but lucratif à Gatineau o�
 
       <div class="faq-item">
         <button class="faq-question">
-          <span>
-            <span class="fr">Quelle est votre politique de remboursement?</span>
-            <span class="en">What is your refund policy?</span>
-          </span>
+          <span><span class="fr">Quelle est votre politique de remboursement?</span><span class="en">What is your refund policy?</span></span>
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer">
@@ -559,10 +545,7 @@ description: "Collectif Végé est un organisme sans but lucratif à Gatineau o�
 
       <div class="faq-item">
         <button class="faq-question">
-          <span>
-            <span class="fr">Il n'y a plus de place. Puis-je être sur la liste d'attente?</span>
-            <span class="en">It's sold out. Can I be on the waitlist?</span>
-          </span>
+          <span><span class="fr">Il n'y a plus de place. Puis-je être sur la liste d'attente?</span><span class="en">It's sold out. Can I be on the waitlist?</span></span>
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer">
@@ -633,14 +616,9 @@ description: "Collectif Végé est un organisme sans but lucratif à Gatineau o�
       </p>
     </div>
     <div class="zeffy-wrapper">
-      <!--
-        Zeffy embed: if this doesn't load, log in to your Zeffy account,
-        go to your event, click "Share / Embed" and copy the official iframe src URL.
-        Replace the src below with that URL.
-      -->
       <iframe
         src="https://www.zeffy.com/fr-CA/embed/ticketing/collectif-vege-veggie-collectives-shop"
-        title="Collectif Végé — Inscription / Registration"
+        title="Collectif Végé, Inscription / Registration"
         allow="payment"
         loading="lazy">
       </iframe>
