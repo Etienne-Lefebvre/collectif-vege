@@ -85,7 +85,8 @@ a:hover {
 body.lang-en .fr { display: none; }
 body.lang-en .en { display: revert; }
 
-span.fr, span.en { display: inline; }
+span.fr { display: inline; }
+span.en { display: none; }
 body.lang-en span.fr { display: none; }
 body.lang-en span.en { display: inline; }
 
