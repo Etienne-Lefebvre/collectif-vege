@@ -1,7 +1,7 @@
 title: "Collectif Végé | Veggie Collective"
 description: "Organisme sans but lucratif à Gatineau où nous plantons, cultivons et récoltons ensemble. / A non-profit in Gatineau where we plant, grow and harvest together."
-baseurl: "/collectif-vege"
-url: "https://etienne-lefebvre.github.io"
+baseurl: ""
+url: "https://www.collectifvege.ca"
 email: "collectifvege.veggiecollective@gmail.com"
 
 # Build settings
