@@ -1,0 +1,291 @@
+---
+layout: default
+title: "Notre équipe | Our team — Collectif Végé"
+description: "Rencontrez les personnes coordonnatrices bénévoles du Collectif Végé. / Meet the volunteer coordinators of the Veggie Collective."
+permalink: /equipe/
+noindex: true
+---
+
+<!-- ===================== NAVIGATION ===================== -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="{{ '/' | relative_url }}" class="nav-brand">
+      <span class="fr">Collectif Végé</span>
+      <span class="en">Veggie Collective</span>
+    </a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="{{ '/#a-propos' | relative_url }}"><span class="fr">À propos</span><span class="en">About</span></a></li>
+      <li><a href="{{ '/#fonctionnement' | relative_url }}"><span class="fr">Fonctionnement</span><span class="en">How it works</span></a></li>
+      <li><a href="{{ '/#horaire' | relative_url }}"><span class="fr">Horaire</span><span class="en">Schedule</span></a></li>
+      <li><a href="{{ '/#tarifs' | relative_url }}"><span class="fr">Tarifs</span><span class="en">Pricing</span></a></li>
+      <li><a href="{{ '/equipe/' | relative_url }}"><span class="fr">Équipe</span><span class="en">Team</span></a></li>
+      <li><a href="{{ '/#faq' | relative_url }}">FAQ</a></li>
+      <li><a href="{{ '/#inscription' | relative_url }}" class="nav-cta"><span class="fr">S'inscrire</span><span class="en">Register</span></a></li>
+    </ul>
+    <div class="nav-controls">
+      <button class="lang-toggle" onclick="toggleLang()" aria-label="Changer la langue / Change language">
+        <span class="lang-fr-label">FR</span>
+        <span class="lang-divider">|</span>
+        <span class="lang-en-label">EN</span>
+      </button>
+      <button class="menu-toggle" onclick="toggleMenu()" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- ===================== PAGE-SPECIFIC STYLES (draft) ===================== -->
+<style>
+  #navbar { background: var(--green-dark); box-shadow: 0 2px 12px rgba(0,0,0,0.18); }
+  #team-hero { padding: 7rem 0 1.5rem; text-align: center; }
+  #team-hero h1 { font-size: clamp(2.2rem, 5vw, 3.5rem); margin-bottom: 1rem; }
+  #team-hero p.lead { max-width: 640px; margin: 0 auto; font-size: 1.1rem; opacity: 0.85; }
+  #team-intro { padding: 1rem 0 2.5rem; }
+  #team-intro .intro-box { max-width: 760px; margin: 0 auto; text-align: center; background: #efe5cd; padding: 2rem 2.5rem; border-radius: 12px; font-size: 1.05rem; line-height: 1.6; box-shadow: 0 2px 12px rgba(0,0,0,0.04); }
+  #team-grid { padding: 2rem 0 4rem; }
+  .team-grid-inner { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.75rem; max-width: 1200px; margin: 0 auto; }
+  .team-card { text-align: center; }
+  .team-photo { width: 100%; max-width: 360px; aspect-ratio: 1; border-radius: 50%; object-fit: cover; margin: 0 auto 1rem; display: block; background: #e8e0d0; }
+  @media (max-width: 900px) { .team-grid-inner { grid-template-columns: repeat(2, 1fr); gap: 2rem; } }
+  @media (max-width: 500px) { .team-grid-inner { grid-template-columns: 1fr; } }
+  .team-name { font-weight: 700; font-size: 1.25rem; margin-bottom: 0.25rem; }
+  .team-role { font-size: 1rem; opacity: 0.85; margin-bottom: 0.75rem; font-style: italic; }
+  .team-bio { font-size: 0.80rem; line-height: 1.5; }
+  #team-cta { padding: 3rem 0 5rem; text-align: center; background: #f5f0e5; }
+  #team-cta h2 { margin-bottom: 1rem; }
+  #team-cta p { max-width: 560px; margin: 0 auto 1.5rem; }
+</style>
+
+<!-- ===================== HERO ===================== -->
+<section id="team-hero">
+  <div class="container">
+    <span class="section-label">
+      <span class="fr">Notre équipe</span><span class="en">Our team</span>
+    </span>
+    <h1>
+      <span class="fr">Les personnes derrière le Collectif</span>
+      <span class="en">The people behind the Collective</span>
+    </h1>
+    <p class="lead">
+      <span class="fr">Le Collectif Végé est entièrement animé par des bénévoles passionnés. Voici les personnes coordonnatrices qui guident chaque quart à la Ferme Moore.</span>
+      <span class="en">The Veggie Collective is entirely run by passionate volunteers. Meet the coordinators who guide each shift at Moore Farm.</span>
+    </p>
+  </div>
+</section>
+
+<!-- ===================== INTRO ===================== -->
+<section id="team-intro">
+  <div class="container">
+    <div class="intro-box">
+      <p>
+        <span class="fr">Les personnes coordonnatrices assurent le bon déroulement du programme semaine après semaine. Elles planifient chaque quart, accueillent les nouvelles personnes, et veillent à ce que tout le monde reparte avec le sourire aux lèvres. Elles apportent toutes une passion commune pour le jardinage, la communauté, et la souveraineté alimentaire.</span>
+        <span class="en">The coordinators keep things running week to week. They plan each shift, welcome new folks, and make sure everyone goes home having enjoyed themselves. Our coordinators all bring a shared passion for gardening, community, and food sovereignty.</span>
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TEAM GRID ===================== -->
+<section id="team-grid">
+  <div class="container">
+    <div class="team-grid-inner">
+
+      <div class="team-card">
+        <img class="team-photo" src="{{ '/assets/images/team/etienne_1.jpg' | relative_url }}" alt="Etienne Lefebvre" loading="lazy">
+        <div class="team-name">Rick</div>
+        <div class="team-role"><span class="fr">Quart du lundi</span><span class="en">Monday shift</span></div>
+        <p class="team-bio">
+          <span class="fr">Etienne a passé douze étés à faire du bénévolat sur de petites fermes et dans des jardins autour d'Ottawa. Ces derniers temps, il cultive des piments extra-forts sur son balcon, en croisant tout ce qui lui tombe sous la main. Il aimerait bien partager un peu de sa sauce piquante, mais il y a de fortes chances que vous ne puissiez pas en supporter l'intensité ;). Sa formation est en neurosciences cognitives, mais ces jours-ci il travaille à EnviroCentre sur des programmes de transport actif et siège au conseil de Strong Towns Ottawa, où il milite pour une ville plus viable financièrement et moins dépendante de l'automobile. Au-delà de ça, il passe beaucoup de temps à réfléchir à la façon dont les communautés peuvent tenir ensemble à travers la polycrise, que certains appellent aujourd'hui le Grand Effilochement : un temps où les crises écologiques et sociales qui s'accumulent commencent à effilocher les systèmes dont dépend la vie moderne.</span>
+          <span class="en">Etienne has spent twelve summers volunteering on small farms and gardens around Ottawa. Lately he's been breeding super-hot peppers on his balcony, cross-pollinating whatever he can get his hands on. He'd love to share some of his hot sauce, though odds are you won't be able to handle the heat ;). His background is in cognitive neuroscience, but these days he works at EnviroCentre on active transportation programs and sits on the board of Strong Towns Ottawa, pushing for a more financially solvent and less car-dependent city. Beyond that, he spends a lot of time thinking about how communities can hold together through the polycrisis, which some now call the Great Unraveling: a time when compounding ecological and social crises start to fray the systems modern life depends on.</span>
+        </p>
+      </div>
+
+      <div class="team-card">
+        <img class="team-photo" src="{{ '/assets/images/team/Etienne_2.jpg' | relative_url }}" alt="Etienne Lefebvre" loading="lazy">
+        <div class="team-name">Janice</div>
+        <div class="team-role"><span class="fr">Quart du lundi</span><span class="en">Monday shift</span></div>
+        <p class="team-bio">
+          <span class="fr">Etienne a passé douze étés à faire du bénévolat sur de petites fermes et dans des jardins autour d'Ottawa. Ces derniers temps, il cultive des piments extra-forts sur son balcon, en croisant tout ce qui lui tombe sous la main. Il aimerait bien partager un peu de sa sauce piquante, mais il y a de fortes chances que vous ne puissiez pas en supporter l'intensité ;). Sa formation est en neurosciences cognitives, mais ces jours-ci il travaille à EnviroCentre sur des programmes de transport actif et siège au conseil de Strong Towns Ottawa, où il milite pour une ville plus viable financièrement et moins dépendante de l'automobile. Au-delà de ça, il passe beaucoup de temps à réfléchir à la façon dont les communautés peuvent tenir ensemble à travers la polycrise, que certains appellent aujourd'hui le Grand Effilochement : un temps où les crises écologiques et sociales qui s'accumulent commencent à effilocher les systèmes dont dépend la vie moderne.</span>
+          <span class="en">Etienne has spent twelve summers volunteering on small farms and gardens around Ottawa. Lately he's been breeding super-hot peppers on his balcony, cross-pollinating whatever he can get his hands on. He'd love to share some of his hot sauce, though odds are you won't be able to handle the heat ;). His background is in cognitive neuroscience, but these days he works at EnviroCentre on active transportation programs and sits on the board of Strong Towns Ottawa, pushing for a more financially solvent and less car-dependent city. Beyond that, he spends a lot of time thinking about how communities can hold together through the polycrisis, which some now call the Great Unraveling: a time when compounding ecological and social crises start to fray the systems modern life depends on.</span>
+        </p>
+      </div>
+
+      <div class="team-card">
+        <img class="team-photo" src="{{ '/assets/images/team/etienne_22.jpg' | relative_url }}" alt="Etienne Lefebvre" loading="lazy">
+        <div class="team-name">Jaya</div>
+        <div class="team-role"><span class="fr">Quart du mardi</span><span class="en">Tuesday shift</span></div>
+        <p class="team-bio">
+          <span class="fr">Etienne a passé douze étés à faire du bénévolat sur de petites fermes et dans des jardins autour d'Ottawa. Ces derniers temps, il cultive des piments extra-forts sur son balcon, en croisant tout ce qui lui tombe sous la main. Il aimerait bien partager un peu de sa sauce piquante, mais il y a de fortes chances que vous ne puissiez pas en supporter l'intensité ;). Sa formation est en neurosciences cognitives, mais ces jours-ci il travaille à EnviroCentre sur des programmes de transport actif et siège au conseil de Strong Towns Ottawa, où il milite pour une ville plus viable financièrement et moins dépendante de l'automobile. Au-delà de ça, il passe beaucoup de temps à réfléchir à la façon dont les communautés peuvent tenir ensemble à travers la polycrise, que certains appellent aujourd'hui le Grand Effilochement : un temps où les crises écologiques et sociales qui s'accumulent commencent à effilocher les systèmes dont dépend la vie moderne.</span>
+          <span class="en">Etienne has spent twelve summers volunteering on small farms and gardens around Ottawa. Lately he's been breeding super-hot peppers on his balcony, cross-pollinating whatever he can get his hands on. He'd love to share some of his hot sauce, though odds are you won't be able to handle the heat ;). His background is in cognitive neuroscience, but these days he works at EnviroCentre on active transportation programs and sits on the board of Strong Towns Ottawa, pushing for a more financially solvent and less car-dependent city. Beyond that, he spends a lot of time thinking about how communities can hold together through the polycrisis, which some now call the Great Unraveling: a time when compounding ecological and social crises start to fray the systems modern life depends on.</span>
+        </p>
+      </div>
+
+      <div class="team-card">
+        <img class="team-photo" src="{{ '/assets/images/team/Etienne_18.jpg' | relative_url }}" alt="Etienne Lefebvre" loading="lazy">
+        <div class="team-name">Emily</div>
+        <div class="team-role"><span class="fr">Quart du mardi</span><span class="en">Tuesday shift</span></div>
+        <p class="team-bio">
+          <span class="fr">Etienne a passé douze étés à faire du bénévolat sur de petites fermes et dans des jardins autour d'Ottawa. Ces derniers temps, il cultive des piments extra-forts sur son balcon, en croisant tout ce qui lui tombe sous la main. Il aimerait bien partager un peu de sa sauce piquante, mais il y a de fortes chances que vous ne puissiez pas en supporter l'intensité ;). Sa formation est en neurosciences cognitives, mais ces jours-ci il travaille à EnviroCentre sur des programmes de transport actif et siège au conseil de Strong Towns Ottawa, où il milite pour une ville plus viable financièrement et moins dépendante de l'automobile. Au-delà de ça, il passe beaucoup de temps à réfléchir à la façon dont les communautés peuvent tenir ensemble à travers la polycrise, que certains appellent aujourd'hui le Grand Effilochement : un temps où les crises écologiques et sociales qui s'accumulent commencent à effilocher les systèmes dont dépend la vie moderne.</span>
+          <span class="en">Etienne has spent twelve summers volunteering on small farms and gardens around Ottawa. Lately he's been breeding super-hot peppers on his balcony, cross-pollinating whatever he can get his hands on. He'd love to share some of his hot sauce, though odds are you won't be able to handle the heat ;). His background is in cognitive neuroscience, but these days he works at EnviroCentre on active transportation programs and sits on the board of Strong Towns Ottawa, pushing for a more financially solvent and less car-dependent city. Beyond that, he spends a lot of time thinking about how communities can hold together through the polycrisis, which some now call the Great Unraveling: a time when compounding ecological and social crises start to fray the systems modern life depends on.</span>
+        </p>
+      </div>
+
+      <div class="team-card">
+        <img class="team-photo" src="{{ '/assets/images/team/etienne_6.jpg' | relative_url }}" alt="Etienne Lefebvre" loading="lazy">
+        <div class="team-name">Sophie</div>
+        <div class="team-role"><span class="fr">Quart du mercredi</span><span class="en">Wednesday shift</span></div>
+        <p class="team-bio">
+          <span class="fr">Etienne a passé douze étés à faire du bénévolat sur de petites fermes et dans des jardins autour d'Ottawa. Ces derniers temps, il cultive des piments extra-forts sur son balcon, en croisant tout ce qui lui tombe sous la main. Il aimerait bien partager un peu de sa sauce piquante, mais il y a de fortes chances que vous ne puissiez pas en supporter l'intensité ;). Sa formation est en neurosciences cognitives, mais ces jours-ci il travaille à EnviroCentre sur des programmes de transport actif et siège au conseil de Strong Towns Ottawa, où il milite pour une ville plus viable financièrement et moins dépendante de l'automobile. Au-delà de ça, il passe beaucoup de temps à réfléchir à la façon dont les communautés peuvent tenir ensemble à travers la polycrise, que certains appellent aujourd'hui le Grand Effilochement : un temps où les crises écologiques et sociales qui s'accumulent commencent à effilocher les systèmes dont dépend la vie moderne.</span>
+          <span class="en">Etienne has spent twelve summers volunteering on small farms and gardens around Ottawa. Lately he's been breeding super-hot peppers on his balcony, cross-pollinating whatever he can get his hands on. He'd love to share some of his hot sauce, though odds are you won't be able to handle the heat ;). His background is in cognitive neuroscience, but these days he works at EnviroCentre on active transportation programs and sits on the board of Strong Towns Ottawa, pushing for a more financially solvent and less car-dependent city. Beyond that, he spends a lot of time thinking about how communities can hold together through the polycrisis, which some now call the Great Unraveling: a time when compounding ecological and social crises start to fray the systems modern life depends on.</span>
+        </p>
+      </div>
+
+      <div class="team-card">
+        <img class="team-photo" src="{{ '/assets/images/team/Etienne_31.jpg' | relative_url }}" alt="Etienne Lefebvre" loading="lazy">
+        <div class="team-name">Fabien</div>
+        <div class="team-role"><span class="fr">Quart du mercredi</span><span class="en">Wednesday shift</span></div>
+        <p class="team-bio">
+          <span class="fr">Etienne a passé douze étés à faire du bénévolat sur de petites fermes et dans des jardins autour d'Ottawa. Ces derniers temps, il cultive des piments extra-forts sur son balcon, en croisant tout ce qui lui tombe sous la main. Il aimerait bien partager un peu de sa sauce piquante, mais il y a de fortes chances que vous ne puissiez pas en supporter l'intensité ;). Sa formation est en neurosciences cognitives, mais ces jours-ci il travaille à EnviroCentre sur des programmes de transport actif et siège au conseil de Strong Towns Ottawa, où il milite pour une ville plus viable financièrement et moins dépendante de l'automobile. Au-delà de ça, il passe beaucoup de temps à réfléchir à la façon dont les communautés peuvent tenir ensemble à travers la polycrise, que certains appellent aujourd'hui le Grand Effilochement : un temps où les crises écologiques et sociales qui s'accumulent commencent à effilocher les systèmes dont dépend la vie moderne.</span>
+          <span class="en">Etienne has spent twelve summers volunteering on small farms and gardens around Ottawa. Lately he's been breeding super-hot peppers on his balcony, cross-pollinating whatever he can get his hands on. He'd love to share some of his hot sauce, though odds are you won't be able to handle the heat ;). His background is in cognitive neuroscience, but these days he works at EnviroCentre on active transportation programs and sits on the board of Strong Towns Ottawa, pushing for a more financially solvent and less car-dependent city. Beyond that, he spends a lot of time thinking about how communities can hold together through the polycrisis, which some now call the Great Unraveling: a time when compounding ecological and social crises start to fray the systems modern life depends on.</span>
+        </p>
+      </div>
+
+      <div class="team-card">
+        <img class="team-photo" src="{{ '/assets/images/team/etienne_8.jpg' | relative_url }}" alt="Etienne Lefebvre" loading="lazy">
+        <div class="team-name">Dominique</div>
+        <div class="team-role"><span class="fr">Quart du jeudi</span><span class="en">Thursday shift</span></div>
+        <p class="team-bio">
+          <span class="fr">Etienne a passé douze étés à faire du bénévolat sur de petites fermes et dans des jardins autour d'Ottawa. Ces derniers temps, il cultive des piments extra-forts sur son balcon, en croisant tout ce qui lui tombe sous la main. Il aimerait bien partager un peu de sa sauce piquante, mais il y a de fortes chances que vous ne puissiez pas en supporter l'intensité ;). Sa formation est en neurosciences cognitives, mais ces jours-ci il travaille à EnviroCentre sur des programmes de transport actif et siège au conseil de Strong Towns Ottawa, où il milite pour une ville plus viable financièrement et moins dépendante de l'automobile. Au-delà de ça, il passe beaucoup de temps à réfléchir à la façon dont les communautés peuvent tenir ensemble à travers la polycrise, que certains appellent aujourd'hui le Grand Effilochement : un temps où les crises écologiques et sociales qui s'accumulent commencent à effilocher les systèmes dont dépend la vie moderne.</span>
+          <span class="en">Etienne has spent twelve summers volunteering on small farms and gardens around Ottawa. Lately he's been breeding super-hot peppers on his balcony, cross-pollinating whatever he can get his hands on. He'd love to share some of his hot sauce, though odds are you won't be able to handle the heat ;). His background is in cognitive neuroscience, but these days he works at EnviroCentre on active transportation programs and sits on the board of Strong Towns Ottawa, pushing for a more financially solvent and less car-dependent city. Beyond that, he spends a lot of time thinking about how communities can hold together through the polycrisis, which some now call the Great Unraveling: a time when compounding ecological and social crises start to fray the systems modern life depends on.</span>
+        </p>
+      </div>
+
+      <div class="team-card">
+        <img class="team-photo" src="{{ '/assets/images/team/Etienne_98.jpg' | relative_url }}" alt="Etienne Lefebvre" loading="lazy">
+        <div class="team-name">Jonathan</div>
+        <div class="team-role"><span class="fr">Quart du jeudi</span><span class="en">Thursday shift</span></div>
+        <p class="team-bio">
+          <span class="fr">Etienne a passé douze étés à faire du bénévolat sur de petites fermes et dans des jardins autour d'Ottawa. Ces derniers temps, il cultive des piments extra-forts sur son balcon, en croisant tout ce qui lui tombe sous la main. Il aimerait bien partager un peu de sa sauce piquante, mais il y a de fortes chances que vous ne puissiez pas en supporter l'intensité ;). Sa formation est en neurosciences cognitives, mais ces jours-ci il travaille à EnviroCentre sur des programmes de transport actif et siège au conseil de Strong Towns Ottawa, où il milite pour une ville plus viable financièrement et moins dépendante de l'automobile. Au-delà de ça, il passe beaucoup de temps à réfléchir à la façon dont les communautés peuvent tenir ensemble à travers la polycrise, que certains appellent aujourd'hui le Grand Effilochement : un temps où les crises écologiques et sociales qui s'accumulent commencent à effilocher les systèmes dont dépend la vie moderne.</span>
+          <span class="en">Etienne has spent twelve summers volunteering on small farms and gardens around Ottawa. Lately he's been breeding super-hot peppers on his balcony, cross-pollinating whatever he can get his hands on. He'd love to share some of his hot sauce, though odds are you won't be able to handle the heat ;). His background is in cognitive neuroscience, but these days he works at EnviroCentre on active transportation programs and sits on the board of Strong Towns Ottawa, pushing for a more financially solvent and less car-dependent city. Beyond that, he spends a lot of time thinking about how communities can hold together through the polycrisis, which some now call the Great Unraveling: a time when compounding ecological and social crises start to fray the systems modern life depends on.</span>
+        </p>
+      </div>
+
+      <div class="team-card">
+        <img class="team-photo" src="{{ '/assets/images/team/Etienne_10.jpg' | relative_url }}" alt="Etienne Lefebvre" loading="lazy">
+        <div class="team-name">Etienne Lefebvre</div>
+        <div class="team-role"><span class="fr">Quart du samedi</span><span class="en">Saturday shift</span></div>
+        <p class="team-bio">
+          <span class="fr">Etienne a passé douze étés à faire du bénévolat sur de petites fermes et dans des jardins autour d'Ottawa. Ces derniers temps, il cultive des piments extra-forts sur son balcon, en croisant tout ce qui lui tombe sous la main. Il aimerait bien partager un peu de sa sauce piquante, mais il y a de fortes chances que vous ne puissiez pas en supporter l'intensité ;). Sa formation est en neurosciences cognitives, mais ces jours-ci il travaille à EnviroCentre sur des programmes de transport actif et siège au conseil de Strong Towns Ottawa, où il milite pour une ville plus viable financièrement et moins dépendante de l'automobile. Au-delà de ça, il passe beaucoup de temps à réfléchir à la façon dont les communautés peuvent tenir ensemble à travers la polycrise, que certains appellent aujourd'hui le Grand Effilochement : un temps où les crises écologiques et sociales qui s'accumulent commencent à effilocher les systèmes dont dépend la vie moderne.</span>
+          <span class="en">Etienne has spent twelve summers volunteering on small farms and gardens around Ottawa. Lately he's been breeding super-hot peppers on his balcony, cross-pollinating whatever he can get his hands on. He'd love to share some of his hot sauce, though odds are you won't be able to handle the heat ;). His background is in cognitive neuroscience, but these days he works at EnviroCentre on active transportation programs and sits on the board of Strong Towns Ottawa, pushing for a more financially solvent and less car-dependent city. Beyond that, he spends a lot of time thinking about how communities can hold together through the polycrisis, which some now call the Great Unraveling: a time when compounding ecological and social crises start to fray the systems modern life depends on.</span>
+        </p>
+      </div>
+
+      <div class="team-card">
+        <img class="team-photo" src="{{ '/assets/images/team/Etienne_11.jpg' | relative_url }}" alt="Etienne Lefebvre" loading="lazy">
+        <div class="team-name">Ashlin</div>
+        <div class="team-role"><span class="fr">Personne coordonnatrice de soutien</span><span class="en">Support Coordinator</span></div>
+        <p class="team-bio">
+          <span class="fr">Etienne a passé douze étés à faire du bénévolat sur de petites fermes et dans des jardins autour d'Ottawa. Ces derniers temps, il cultive des piments extra-forts sur son balcon, en croisant tout ce qui lui tombe sous la main. Il aimerait bien partager un peu de sa sauce piquante, mais il y a de fortes chances que vous ne puissiez pas en supporter l'intensité ;). Sa formation est en neurosciences cognitives, mais ces jours-ci il travaille à EnviroCentre sur des programmes de transport actif et siège au conseil de Strong Towns Ottawa, où il milite pour une ville plus viable financièrement et moins dépendante de l'automobile. Au-delà de ça, il passe beaucoup de temps à réfléchir à la façon dont les communautés peuvent tenir ensemble à travers la polycrise, que certains appellent aujourd'hui le Grand Effilochement : un temps où les crises écologiques et sociales qui s'accumulent commencent à effilocher les systèmes dont dépend la vie moderne.</span>
+          <span class="en">Etienne has spent twelve summers volunteering on small farms and gardens around Ottawa. Lately he's been breeding super-hot peppers on his balcony, cross-pollinating whatever he can get his hands on. He'd love to share some of his hot sauce, though odds are you won't be able to handle the heat ;). His background is in cognitive neuroscience, but these days he works at EnviroCentre on active transportation programs and sits on the board of Strong Towns Ottawa, pushing for a more financially solvent and less car-dependent city. Beyond that, he spends a lot of time thinking about how communities can hold together through the polycrisis, which some now call the Great Unraveling: a time when compounding ecological and social crises start to fray the systems modern life depends on.</span>
+        </p>
+      </div>
+
+      <div class="team-card">
+        <img class="team-photo" src="{{ '/assets/images/team/etienne_15.jpg' | relative_url }}" alt="Etienne Lefebvre" loading="lazy">
+        <div class="team-name">Kristen</div>
+        <div class="team-role"><span class="fr">Personne coordonnatrice de soutien</span><span class="en">Support Coordinator</span></div>
+        <p class="team-bio">
+          <span class="fr">Etienne a passé douze étés à faire du bénévolat sur de petites fermes et dans des jardins autour d'Ottawa. Ces derniers temps, il cultive des piments extra-forts sur son balcon, en croisant tout ce qui lui tombe sous la main. Il aimerait bien partager un peu de sa sauce piquante, mais il y a de fortes chances que vous ne puissiez pas en supporter l'intensité ;). Sa formation est en neurosciences cognitives, mais ces jours-ci il travaille à EnviroCentre sur des programmes de transport actif et siège au conseil de Strong Towns Ottawa, où il milite pour une ville plus viable financièrement et moins dépendante de l'automobile. Au-delà de ça, il passe beaucoup de temps à réfléchir à la façon dont les communautés peuvent tenir ensemble à travers la polycrise, que certains appellent aujourd'hui le Grand Effilochement : un temps où les crises écologiques et sociales qui s'accumulent commencent à effilocher les systèmes dont dépend la vie moderne.</span>
+          <span class="en">Etienne has spent twelve summers volunteering on small farms and gardens around Ottawa. Lately he's been breeding super-hot peppers on his balcony, cross-pollinating whatever he can get his hands on. He'd love to share some of his hot sauce, though odds are you won't be able to handle the heat ;). His background is in cognitive neuroscience, but these days he works at EnviroCentre on active transportation programs and sits on the board of Strong Towns Ottawa, pushing for a more financially solvent and less car-dependent city. Beyond that, he spends a lot of time thinking about how communities can hold together through the polycrisis, which some now call the Great Unraveling: a time when compounding ecological and social crises start to fray the systems modern life depends on.</span>
+        </p>
+      </div>
+
+      <div class="team-card">
+        <img class="team-photo" src="{{ '/assets/images/team/Etienne_13.jpg' | relative_url }}" alt="Etienne Lefebvre" loading="lazy">
+        <div class="team-name">Emily?</div>
+        <div class="team-role"><span class="fr">Personne coordonnatrice de soutien</span><span class="en">Support Coordinator</span></div>
+        <p class="team-bio">
+          <span class="fr">Etienne a passé douze étés à faire du bénévolat sur de petites fermes et dans des jardins autour d'Ottawa. Ces derniers temps, il cultive des piments extra-forts sur son balcon, en croisant tout ce qui lui tombe sous la main. Il aimerait bien partager un peu de sa sauce piquante, mais il y a de fortes chances que vous ne puissiez pas en supporter l'intensité ;). Sa formation est en neurosciences cognitives, mais ces jours-ci il travaille à EnviroCentre sur des programmes de transport actif et siège au conseil de Strong Towns Ottawa, où il milite pour une ville plus viable financièrement et moins dépendante de l'automobile. Au-delà de ça, il passe beaucoup de temps à réfléchir à la façon dont les communautés peuvent tenir ensemble à travers la polycrise, que certains appellent aujourd'hui le Grand Effilochement : un temps où les crises écologiques et sociales qui s'accumulent commencent à effilocher les systèmes dont dépend la vie moderne.</span>
+          <span class="en">Etienne has spent twelve summers volunteering on small farms and gardens around Ottawa. Lately he's been breeding super-hot peppers on his balcony, cross-pollinating whatever he can get his hands on. He'd love to share some of his hot sauce, though odds are you won't be able to handle the heat ;). His background is in cognitive neuroscience, but these days he works at EnviroCentre on active transportation programs and sits on the board of Strong Towns Ottawa, pushing for a more financially solvent and less car-dependent city. Beyond that, he spends a lot of time thinking about how communities can hold together through the polycrisis, which some now call the Great Unraveling: a time when compounding ecological and social crises start to fray the systems modern life depends on.</span>
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== JOIN THE TEAM ===================== -->
+<section id="team-cta">
+  <div class="container">
+    <h2>
+      <span class="fr">Envie de devenir une personne coordonnatrice?</span>
+      <span class="en">Interested in being a coordinator?</span>
+    </h2>
+    <p>
+      <span class="fr">Faites-nous signe! Nous sommes toujours à la recherche de plus de bénévoles.</span>
+      <span class="en">Please let us know! We're always looking for more volunteer help.</span>
+    </p>
+    <a href="mailto:collectifvege.veggiecollective@gmail.com" class="btn btn-primary btn-lg">
+      <span class="fr">Nous contacter</span>
+      <span class="en">Contact us</span>
+    </a>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer id="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand">
+          <span class="fr">Collectif Végé</span>
+          <span class="en">Veggie Collective</span>
+        </div>
+        <p class="footer-tagline">
+          <span class="fr">Nous plantons et récoltons ensemble.</span>
+          <span class="en">We plant and harvest together.</span>
+        </p>
+        <p class="footer-location">
+          <span class="fr">Ferme Moore, Gatineau QC<br>Secteur Val-Tétreau / Manoir des Trembles<br>Organisme sans but lucratif</span>
+          <span class="en">Moore Farm, Gatineau QC<br>Val-Tétreau / Manoir des Trembles area<br>Non-profit organization</span>
+        </p>
+      </div>
+      <div>
+        <p class="footer-heading">
+          <span class="fr">Navigation</span><span class="en">Navigation</span>
+        </p>
+        <ul class="footer-links">
+          <li><a href="{{ '/#a-propos' | relative_url }}"><span class="fr">À propos</span><span class="en">About</span></a></li>
+          <li><a href="{{ '/#fonctionnement' | relative_url }}"><span class="fr">Fonctionnement</span><span class="en">How it works</span></a></li>
+          <li><a href="{{ '/#horaire' | relative_url }}"><span class="fr">Horaire</span><span class="en">Schedule</span></a></li>
+          <li><a href="{{ '/#tarifs' | relative_url }}"><span class="fr">Tarifs</span><span class="en">Pricing</span></a></li>
+          <li><a href="{{ '/equipe/' | relative_url }}"><span class="fr">Équipe</span><span class="en">Team</span></a></li>
+          <li><a href="{{ '/#faq' | relative_url }}">FAQ</a></li>
+          <li><a href="{{ '/#inscription' | relative_url }}"><span class="fr">S'inscrire</span><span class="en">Register</span></a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <p class="footer-heading">
+          <span class="fr">Contact</span><span class="en">Contact</span>
+        </p>
+        <p style="font-size:0.85rem; color:rgba(255,255,255,0.45); margin-bottom:6px;">
+          <span class="fr">Questions? Écrivez-nous :</span>
+          <span class="en">Questions? Write to us:</span>
+        </p>
+        <a href="mailto:collectifvege.veggiecollective@gmail.com">collectifvege.veggiecollective@gmail.com</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>
+        © 2026 Collectif Végé / Veggie Collective.
+        <span class="fr"> Organisme sans but lucratif.</span>
+        <span class="en"> Non-profit organization.</span>
+      </span>
+      <span>
+        <span class="fr">Saison 2026</span>
+        <span class="en">Season 2026</span>
+      </span>
+    </div>
+  </div>
+</footer>
